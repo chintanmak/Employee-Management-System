@@ -1,0 +1,38 @@
+@import '../../../Scss/variable';
+@import '../../../Scss/components';
+@import '../../../Scss/fonts';
+
+.dashboard{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    & .left-navigation-panel{
+        width: 20%;
+        align-items: center;
+        // border: 1px solid;
+
+        & .dashboard-logo{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 10rem;
+            // border: 1px solid;
+        }
+
+        & .left-navigation-menu-container{
+            & ul{
+                
+                & li{    
+                    color: $lightgreen;
+                    padding: 1rem;
+                    list-style: none;
+
+                    & img{
+                        padding-right: 1rem;
+                    }
+                }
+            }
+        }
+    }
+}

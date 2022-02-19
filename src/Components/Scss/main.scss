@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400&family=Roboto:wght@300;400;700&display=swap');
+
+
+@import '../Employer/scss/employerlogin';
+@import '../Employee//scss/employeelogin';
+@import '../Employer/Dashboard/Scss/dashboard';
+
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+

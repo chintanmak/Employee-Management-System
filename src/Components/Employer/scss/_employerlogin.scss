@@ -1,0 +1,74 @@
+@import '../../Scss/variable';
+@import '../../Scss/components';
+@import '../../Scss/fonts';
+
+
+.login-page{
+    background-color: $primarycolor;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    & .login-container{
+        position: relative;
+        background-color: $pure;
+        box-shadow: 0 0 1rem rgba($color: #000000, $alpha: 0.1);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 2rem;
+        width: 80%;
+        height: 80%;
+        border-radius: 1rem;
+        
+        & .login-logo{
+            display: flex;
+            flex-direction: column;
+            // border: 1px solid;
+            align-items: center;
+            padding: 5rem 0;            
+            & .logo{
+                padding-bottom: 4rem;
+            }
+           
+            & .empimg{
+                width: 30rem;
+                height: 25rem;
+            }
+            
+        }
+
+        & .login-section{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            // justify-content: center;
+            & h1{
+                padding-top: 3rem;
+                text-align: center;
+            }
+
+            & .loginuserpass{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+
+                & p{
+                    padding-right: 2rem;
+                }
+                & .loginids{
+                    border: none;
+                    background-color: $primarycolor;
+                    width: 20rem;
+                    height: 3rem;
+                    border-radius: 0.5rem;
+                    padding: 0 1rem;
+                }
+            }
+             
+        }
+    }
+}
