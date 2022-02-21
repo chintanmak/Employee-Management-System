@@ -1,11 +1,18 @@
 import React, { Component } from 'react';
-import './Scss/_dashboard.scss';
+import '../scss/_dashboard.scss';
+
+
 import companylogo from '../../Assets/img/Digitalcompanylogo.png';
 import employeelisticon from '../../Assets/svgs/employeelist.svg';
 import addemployeeicon from '../../Assets/svgs/addemployee.svg';
 import projecticon from '../../Assets/svgs/projects.svg';
 import applicationicon from '../../Assets/svgs/projects.svg';
 import logouticon from '../../Assets/svgs/logout.svg';
+import Employer_dashboard from './Container/employer-dashboard';
+import Employee_list from './Container/employeelist';
+import Add_employee from './Container/addemployee';
+import Employee_details from './Container/employee-details';
+import Employee_application from './Container/employeeapplication';
 
 export default class Dashboard extends Component {
   render() {
@@ -17,6 +24,7 @@ export default class Dashboard extends Component {
                 <img src={companylogo}  className="logo" />
             </div>
             <div className='left-navigation-menu-container'>
+  
                 <ul className='input-label-15-bold'>
                     <li><img src={employeelisticon} />Employee List</li>
                     <li><img src={addemployeeicon} />Add Employee</li>
@@ -27,6 +35,15 @@ export default class Dashboard extends Component {
             </div>
 
             </div>
+
+            <div className='right-dashboard-panel'>
+            {/* <Employer_dashboard /> */}
+            {/* <Employee_list /> */}
+            {/* <Add_employee /> */}
+            {/* <Employee_details /> */}
+            <Employee_application />
+            </div>
+
         </div>
       </>
     )

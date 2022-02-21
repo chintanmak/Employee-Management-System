@@ -1,0 +1,64 @@
+@import '../../Scss/components';
+@import '../../Scss/fonts';
+@import '../../Scss/variable';
+
+.employeelist-page{
+    position: relative;
+    width: initial;
+    height: 100%;
+    border-radius: 5rem 0 0 0;
+    background-color: $primarycolor;
+    overflow: overlay;
+    & .employeelist-container{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: inherit;
+        padding: 3rem 2rem;
+
+        & .employeelist-header-section{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            & button{
+                width: 20rem;
+                height: 3rem;
+                text-align: center;
+                border: 2px solid black; 
+            }
+            & button:hover{
+                width: 20rem;
+                height: 3rem;
+                text-align: center;
+                background-color: $secondarygreen;
+                color: $pure;
+            }
+        }
+
+        & .employee-list-section{
+            display: flex;
+            flex-direction: column;
+            padding: 1rem 0;
+            gap: 1rem;
+            overflow: overlay;
+        
+        & .employee-header-list{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background-color: $secondarygreen;
+            border-radius: 1rem;
+            padding: 0 2rem;
+        }
+        & .employee-main-list{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background-color: $pure;
+            border-radius: 1rem;
+            padding: 0 2rem;
+        }
+    }
+    }
+}

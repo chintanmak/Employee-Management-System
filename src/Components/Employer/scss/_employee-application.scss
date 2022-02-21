@@ -1,0 +1,46 @@
+@import '../../Scss/components';
+@import '../../Scss/fonts';
+@import '../../Scss/variable';
+
+.employee-application-container{
+    position: relative;
+    width: initial;
+    height: 100%;
+    border-radius: 5rem 0 0 0;
+    background-color: $primarycolor;
+    & .employee-application-section{
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        & .employee-application-header{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        & .employee-application-list-section{
+            display: flex;
+            flex-direction: column;
+            padding: 1rem 0;
+            gap: 1rem;
+            overflow: overlay;
+            & .employee-application-list-header{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                background-color: $secondarygreen;
+                border-radius: 1rem;
+                padding: 0 2rem;
+
+            }
+            & .employee-application-main-list{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                background-color: $pure;
+                border-radius: 1rem;
+                padding: 0 2rem;
+            }
+        }
+    }
+}

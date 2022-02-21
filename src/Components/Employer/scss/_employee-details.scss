@@ -1,0 +1,89 @@
+@import '../../Scss/components';
+@import '../../Scss/fonts';
+@import '../../Scss/variable';
+
+.employee-details-container{
+    position: relative;
+    width: initial;
+    height: 100%;
+    border-radius: 5rem 0 0 0;
+    background-color: $primarycolor;
+    overflow: overlay;
+
+
+    & .employee-details-section{
+        display: flex;
+        flex-direction: column;
+
+        & .employee-details-header{
+            text-align: center;
+        }
+
+        & .employee-details-info-section{
+            display: flex;
+            flex-direction: row;
+            height: fit-content;
+            padding: 1rem;
+            // justify-content: center;
+            & .employee-details-info{
+                position: relative;
+                width: 70%;
+                height: 100%;
+                background-color: $pure;
+                box-shadow: 0 0 1rem rgba($color: #000000, $alpha: 0.1);
+                border-radius: 1rem;
+                margin: 0 2rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                gap: 1rem;
+                & .employee-details-inside-header{
+                    margin: 1rem;
+                    border-radius: 1rem;
+                    background-color: $primarycolor;
+                    color: $secondarygreen;
+                    text-align: center;
+                }
+                & .employee-details-inside-info{
+                    padding: 0 1rem;
+                }
+            }
+
+            & .employee-details-projects{
+                position: relative;
+                width: 30%;
+                height: 50%;
+                background-color: $pure;
+                box-shadow: 0 0 1rem rgba($color: #000000, $alpha: 0.1);
+                border-radius: 1rem;
+                margin: 0 1rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                // gap: 1rem;
+
+                & .employee-details-box1{
+                    background-color: $primarycolor;
+                    margin: 1rem;
+                    border-radius: 1rem;
+                    padding: 1rem;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+
+                    & p{
+                        margin: 1rem;
+                    }
+
+                    & button{
+                        width: 100%;
+                        height: 30%;
+                        text-align: center;
+                        font-size: 2.4rem;
+                    }
+                }
+            }
+        }
+
+    }
+}

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './scss/_employerlogin.scss';
+
 import employer from '../Assets/img/Employer.png';
 import companylogo from '../Assets/img/Digitalcompanylogo.png';
 
@@ -26,7 +27,7 @@ export default class Employerlogin extends Component {
                 <div className='loginuserpass'>
 
                     <p className='color-secondary input-label-24'>Password: </p>
-                    <input type="text" 
+                    <input type="password" 
                         className='loginids'
                         placeholder='password'
                     />

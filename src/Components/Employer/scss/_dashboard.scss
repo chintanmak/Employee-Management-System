@@ -1,13 +1,13 @@
-@import '../../../Scss/variable';
-@import '../../../Scss/components';
-@import '../../../Scss/fonts';
-
+@import '../../Scss/fonts';
+@import '../../Scss/variable';
+@import '../../Scss/components';
 .dashboard{
     display: flex;
     width: 100%;
     height: 100vh;
     & .left-navigation-panel{
-        width: 20%;
+        width: 18%;
+        position: relative;
         align-items: center;
         // border: 1px solid;
 
@@ -34,5 +34,10 @@
                 }
             }
         }
+    }
+
+    & .right-dashboard-panel{
+        width: 82%;
+        position: relative;
     }
 }

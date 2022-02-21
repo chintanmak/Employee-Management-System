@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400&family=Roboto:wght@300;400;700&display=swap');
+@import '../Scss/fonts';
+@import '../Scss/components';
+@import '../Scss/variable';
 
-
+@import '../Employer/scss/dashboard';
+@import '../Employer/scss/employer-dashboard-container';
 @import '../Employer/scss/employerlogin';
-@import '../Employee//scss/employeelogin';
-@import '../Employer/Dashboard/Scss/dashboard';
+@import '../Employer/scss/employeelist';
+@import '../Employer/scss/addemployee';
+@import '../Employer/scss/employee-details';
+@import '../Employer/scss/employee-application';
+
+@import '../Employee/scss/employeelogin';
 
 html{
     font-size: 62.5%;
