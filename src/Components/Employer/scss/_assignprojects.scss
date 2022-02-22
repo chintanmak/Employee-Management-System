@@ -1,0 +1,37 @@
+@import '../../Scss/components';
+@import '../../Scss/fonts';
+@import '../../Scss/variable';
+
+.assign-project-page{
+    position: relative;
+    width: initial;
+    height: 100%;
+    border-radius: 5rem 0 0 0;
+    background-color: $primarycolor;
+    overflow: overlay;
+    & .assign-project-container{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;  
+        & .assign-project-details-header{
+            text-align: center;
+        }
+
+        & hr{
+            background-color: $lightgreen;  
+        }
+        & .assign-sections{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            & button{
+                text-align: center;
+                align-items: center;
+                height: 3rem;
+                width: 20rem;
+            }
+        }
+
+      
+    }
+}

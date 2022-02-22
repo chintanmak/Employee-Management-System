@@ -13,6 +13,9 @@ import Employee_list from './Container/employeelist';
 import Add_employee from './Container/addemployee';
 import Employee_details from './Container/employee-details';
 import Employee_application from './Container/employeeapplication';
+import Total_projects from './Container/totalprojects';
+import Pending_projects from './Container/pendingprojects';
+import Assign_projects from './Container/assignprojects';
 
 export default class Dashboard extends Component {
   render() {
@@ -41,7 +44,10 @@ export default class Dashboard extends Component {
             {/* <Employee_list /> */}
             {/* <Add_employee /> */}
             {/* <Employee_details /> */}
-            <Employee_application />
+            {/* <Total_projects /> */}
+            {/* <Pending_projects /> */}
+            <Assign_projects />
+            {/* <Employee_application /> */}
             </div>
 
         </div>

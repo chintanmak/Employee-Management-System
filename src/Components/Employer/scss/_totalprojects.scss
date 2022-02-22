@@ -1,0 +1,61 @@
+@import '../../Scss/components';
+@import '../../Scss/fonts';
+@import '../../Scss/variable';
+
+
+.total-project-page{
+    position: relative;
+    width: initial;
+    height: 100%;
+    border-radius: 5rem 0 0 0;
+    background-color: $primarycolor;
+    overflow: overlay;
+    & .total-project-container{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;  
+        & .total-project-details-header{
+            text-align: center;
+        }
+
+        & hr{
+            background-color: $lightgreen;  
+        }
+        & .projects-sections{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            & button{
+                text-align: center;
+                align-items: center;
+                height: 3rem;
+                width: 20rem;
+            }
+        }
+
+        & .total-project-main-list{
+            display: flex;
+            flex-direction: column;
+            padding: 1rem 0;
+            gap: 1rem;
+            overflow: overlay;
+            & .total-project-header-list{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                background-color: $secondarygreen;
+                border-radius: 1rem;
+                padding: 0 2rem;
+            }
+
+            & .total-project-main-list{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                background-color: $pure;
+                border-radius: 1rem;
+                padding: 0 2rem;
+            }
+        }
+    }
+}
