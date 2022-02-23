@@ -12,23 +12,26 @@
     & .assign-project-container{
         display: flex;
         flex-direction: column;
-        padding: 1rem;  
+        padding: 5rem 1rem;
+
         & .assign-project-details-header{
             text-align: center;
         }
 
         & hr{
-            background-color: $lightgreen;  
+                margin: 3rem 0;
+                background-color: $lightgreen;  
         }
         & .assign-sections{
             display: flex;
             flex-direction: row;
             justify-content: space-around;
             & button{
-                text-align: center;
+                display: flex;
+                justify-content: center;
                 align-items: center;
-                height: 3rem;
-                width: 20rem;
+                width: 35rem;
+                height: 4rem;
             }
         }
 

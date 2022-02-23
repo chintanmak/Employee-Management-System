@@ -12,7 +12,7 @@ export default class Employer_dashboard extends Component {
             <div className='employer-dashboard-section'>
               
               <div className='employer-list-dashboard'>
-                <p className='input-label-15-bold color-lightgreen'><img src={employeelisticon} /> Employee List</p>
+                <p className='input-label-24-bold color-lightgreen'><img src={employeelisticon} /> Employee List</p>
                 <span>
 
                 <button className='active-button'> Chintan Makwana </button>
@@ -27,26 +27,26 @@ export default class Employer_dashboard extends Component {
 
               <div className='employer-details-section'>
               <div className='employer-details-section2'>
-                <div className='empoyer-details-header input-label-15-bold'>
+                <div className='empoyer-details-header input-label-24-bold'>
                   Employee details
                 </div>
                 <div className='empoyer-info-section'>
                   <ul>
                     
-                    <li className='input-label-15-bold color-secondary'>Name:</li>
-                    <p className='color-secondary input-label-15-bold'>Chintan Makwana</p>
+                    <li className='input-label-24-bold color-secondary'>Name:</li>
+                    <p className='color-secondary input-label-24-bold'>Chintan Makwana</p>
                     <hr />
                    
-                    <li className='input-label-15-bold color-secondary'>Email:</li>
-                    <p className='color-secondary input-label-15-bold'>Chintanmakwana2011@gmail.com</p>
+                    <li className='input-label-24-bold color-secondary'>Email:</li>
+                    <p className='color-secondary input-label-24-bold'>Chintanmakwana2011@gmail.com</p>
                     <hr />
                     
-                    <li className='input-label-15-bold color-secondary'>Role:</li>
-                    <p className='color-secondary input-label-15-bold'>Software Developer</p>
+                    <li className='input-label-24-bold color-secondary'>Role:</li>
+                    <p className='color-secondary input-label-24-bold'>Software Developer</p>
                     <hr />
 
-                    <li className='input-label-15-bold color-secondary'>Phone:</li>
-                    <p className='color-secondary input-label-15-bold'>9699421928</p>
+                    <li className='input-label-24-bold color-secondary'>Phone:</li>
+                    <p className='color-secondary input-label-24-bold'>9699421928</p>
                     
                   </ul>
                 </div>
@@ -54,7 +54,7 @@ export default class Employer_dashboard extends Component {
 
             <div className='employer-details-box-section'>
               <div className='employer-info-box1'>
-                <p className='input-label-24 color-secondary'>
+                <p className='input-label-24-bold color-secondary'>
                   Assigned Projects
                 </p>
                 <button className='active-button'>
@@ -63,7 +63,7 @@ export default class Employer_dashboard extends Component {
               </div>
 
               <div className='employer-info-box1'>
-                <p className='input-label-24 color-secondary'>
+                <p className='input-label-24-bold color-secondary'>
                   Completed Projects
                 </p>
                 <button className='active-button'>
@@ -72,7 +72,7 @@ export default class Employer_dashboard extends Component {
               </div>
 
               <div className='employer-info-box1'>
-                <p className='input-label-24 color-secondary'>
+                <p className='input-label-24-bold color-secondary'>
                   Pending Projects
                 </p>
                 <button className='active-button'>

@@ -1,21 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400&family=Roboto:wght@300;400;700&display=swap');
-@import '../Scss/fonts';
-@import '../Scss/components';
-@import '../Scss/variable';
 
+@import '../Employer/scss/addemployee';
+@import '../Employer/scss/assignprojects';
 @import '../Employer/scss/dashboard';
+@import '../Employer/scss/employee-application-details';
+@import '../Employer/scss/employee-application';
+@import '../Employer/scss/employee-details';
+@import '../Employer/scss/employeelist';
 @import '../Employer/scss/employer-dashboard-container';
 @import '../Employer/scss/employerlogin';
-@import '../Employer/scss/employeelist';
-@import '../Employer/scss/addemployee';
-@import '../Employer/scss/employee-details';
-@import '../Employer/scss/totalprojects';
 @import '../Employer/scss/pendingprojects';
-@import '../Employer/scss/assignprojects';
-@import '../Employer/scss/employee-application';
-
-
-@import '../Employee/scss/employeelogin';
+@import '../Employer/scss/totalprojects';
 
 html{
     font-size: 62.5%;

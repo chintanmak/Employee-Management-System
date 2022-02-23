@@ -13,12 +13,13 @@
     & .Pending-project-container{
         display: flex;
         flex-direction: column;
-        padding: 1rem;  
+        padding: 5rem 1rem; 
         & .Pending-project-details-header{
             text-align: center;
         }
 
         & hr{
+            margin: 3rem 0;
             background-color: $lightgreen;  
         }
         & .projects-sections{
@@ -26,17 +27,18 @@
             flex-direction: row;
             justify-content: space-around;
             & button{
-                text-align: center;
+                display: flex;
+                justify-content: center;
                 align-items: center;
-                height: 3rem;
-                width: 20rem;
+                width: 35rem;
+                height: 4rem;
             }
         }
 
         & .Pending-project-main-list{
             display: flex;
             flex-direction: column;
-            padding: 1rem 0;
+            padding: 2rem 1rem;
             gap: 1rem;
             overflow: overlay;
             & .Pending-project-header-list{
@@ -46,6 +48,13 @@
                 background-color: $secondarygreen;
                 border-radius: 1rem;
                 padding: 0 2rem;
+                align-items: center;
+                height: 5rem;
+                & p{
+                    width: 25rem;
+                    text-align: center;
+                    // border: 2px solid;
+                }
             }
 
             & .Pending-project-main-list{
@@ -55,6 +64,13 @@
                 background-color: $pure;
                 border-radius: 1rem;
                 padding: 0 2rem;
+                align-items: center;
+                height: 5rem;
+                & p{
+                    width: 25rem;
+                    text-align: center;
+                    // border: 2px solid;
+                }
             }
         }
     }

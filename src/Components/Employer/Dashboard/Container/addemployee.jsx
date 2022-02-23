@@ -8,26 +8,27 @@ export default class Add_employee extends Component {
         <div className='add-employee-container'>
             <div className='add-employee-section'>
                 <div className='addemployee-header'>
-                    <p className='input-label-24 color-secondary'>Add New Employee</p>
+                    <p className='input-label-24-bold color-secondary'>Add New Employee</p>
+                    <hr />
                 </div>
                 <div className='add-employee-details'>
                     <div className='add-employee-header'>
-                        <p className='input-label-15-bold'>Registration Form</p>
+                        <p className='input-label-24-bold'>Registration Form</p>
                     </div>
                     <div className='add-employee-form'>
-                        <p className='input-label-15-bold color-secondary'>Name :</p>
+                        <p className='input-label-24-bold color-secondary'>Name :</p>
                         <input type="text" className='inputboxs addemp-input'/>
                     </div>
                     <div className='add-employee-form'>
-                        <p className='input-label-15-bold color-secondary'>Email :</p>
+                        <p className='input-label-24-bold color-secondary'>Email :</p>
                         <input type="text" className='inputboxs addemp-input'/>
                     </div>
                     <div className='add-employee-form'>
-                        <p className='input-label-15-bold color-secondary'>Role :</p>
+                        <p className='input-label-24-bold color-secondary'>Role :</p>
                         <input type="text" className='inputboxs addemp-input'/>
                     </div>
                     <div className='add-employee-form'>
-                        <p className='input-label-15-bold color-secondary'>Phone :</p>
+                        <p className='input-label-24-bold color-secondary'>Phone :</p>
                         <input type="text" className='inputboxs addemp-input'/>
                     </div>
                     <div className='add-employee-submitbtn'>

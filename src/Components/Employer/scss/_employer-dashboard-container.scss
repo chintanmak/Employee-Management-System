@@ -14,9 +14,9 @@
         position: relative;
         display: flex;
         flex-direction: row;
-        // justify-content: space-evenly;
+        justify-content: space-evenly;
         width: inherit;
-        padding: 3rem 2rem;
+        padding: 5rem 1rem;
         
         & .employer-list-dashboard{
             // border: 2px solid;
@@ -26,15 +26,18 @@
             & span{
                 display: flex;
                 flex-direction: column;
-
+                margin-top: 3rem;
             }
             & button{
                 margin: 1rem 0;
-                width: 18rem;
-                height: 4rem;
+                width: 26rem;
+                height: 5rem;
             }
             & .addemp-list{
-                // margin-top: 20rem;
+                align-items: center;
+                & img{
+
+                }
             }
         }
 
@@ -43,16 +46,14 @@
             flex-direction: column;
             position: relative;
             width: 70%;
-            // border: 2px solid;
-            height: 70%;
+            height: 100%;
             gap: 1rem;
             margin-left: 2rem;
             & .employer-details-section2{
                 position: relative;
-
-            background-color: $pure;
-            box-shadow: 0 0 1rem rgba($color: #000000, $alpha: 0.1);
-            border-radius: 1rem;
+                background-color: $pure;
+                box-shadow: 0 0 1rem rgba($color: #000000, $alpha: 0.1);
+                border-radius: 1rem;
 
             & .empoyer-details-header{
                 margin: 1rem;
@@ -64,7 +65,17 @@
                 
             }
             & .empoyer-info-section{
-                padding: 0 1rem;
+                padding: 2rem 3rem;
+                
+                & ul{
+                    padding:  1rem 2rem;
+                    & li{
+                        padding: 1rem 0;
+                    }
+                    & p{
+                        padding: 1rem 0;
+                    }
+                }
             }
 
         }
@@ -73,20 +84,21 @@
                 position: relative;
                 display: flex;
                 flex-direction: row;
-                justify-content: center;
+                justify-content: space-evenly;
                 background-color: $pure;
                 border-radius: 1rem;
                 box-shadow: 0 0 1rem rgba($color: #000000, $alpha: 0.1);
 
                 & .employer-info-box1{
                     background-color: $primarycolor;
-                    margin: 2rem;
+                    margin: 1rem;
                     border-radius: 1rem;
                     padding: 1rem 1rem;
-                    width: 15rem;
-
-
+                    width: 18rem;
+                    height: 15rem;
+                    
                     & button{
+                        margin-top: 3rem;
                         width: 100%;
                         height: 30%;
                         text-align: center;

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../scss/_dashboard.scss';
-
+import '../../Scss/main.scss';
 
 import companylogo from '../../Assets/img/Digitalcompanylogo.png';
 import employeelisticon from '../../Assets/svgs/employeelist.svg';
@@ -16,6 +16,7 @@ import Employee_application from './Container/employeeapplication';
 import Total_projects from './Container/totalprojects';
 import Pending_projects from './Container/pendingprojects';
 import Assign_projects from './Container/assignprojects';
+import Employee_application_details from './Container/employee-application-details';
 
 export default class Dashboard extends Component {
   render() {
@@ -28,7 +29,7 @@ export default class Dashboard extends Component {
             </div>
             <div className='left-navigation-menu-container'>
   
-                <ul className='input-label-15-bold'>
+                <ul className='input-label-24-bold'>
                     <li><img src={employeelisticon} />Employee List</li>
                     <li><img src={addemployeeicon} />Add Employee</li>
                     <li><img src={projecticon} />Projects</li>
@@ -40,14 +41,15 @@ export default class Dashboard extends Component {
             </div>
 
             <div className='right-dashboard-panel'>
-            {/* <Employer_dashboard /> */}
-            {/* <Employee_list /> */}
-            {/* <Add_employee /> */}
-            {/* <Employee_details /> */}
-            {/* <Total_projects /> */}
-            {/* <Pending_projects /> */}
+            <Employer_dashboard />
+            <Employee_list />
+            <Add_employee />
+            <Employee_details />
+            <Total_projects />
+            <Pending_projects />
             <Assign_projects />
-            {/* <Employee_application /> */}
+            <Employee_application />
+            <Employee_application_details />
             </div>
 
         </div>

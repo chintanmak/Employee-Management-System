@@ -4,6 +4,8 @@ import ReactDOM from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Employer_dashboard from './Components/Employer/Dashboard/Container/employer-dashboard';
 
+import './Components/Scss/main.scss';
+
 import Employerlogin from './Components/Employer/employerlogin';
 import Employerdashboard from './Components/Employer/Dashboard/Container/employer-dashboard';
 import Dashboard from './Components/Employer/Dashboard/dashboard';
@@ -14,6 +16,7 @@ import Employee_application from './Components/Employer/Dashboard/Container/empl
 import Total_projects from './Components/Employer/Dashboard/Container/totalprojects';
 import Pending_projects from './Components/Employer/Dashboard/Container/pendingprojects';
 import Assign_projects from './Components/Employer/Dashboard/Container/assignprojects';
+import Employee_application_details from './Components/Employer/Dashboard/Container/employee-application-details';
 
 
 
@@ -33,6 +36,7 @@ function App() {
             <Route path='/Total-Projects' element={<Total_projects />} exact />
             <Route path='/Pending-Projects' element={<Pending_projects />} exact />
             <Route path='/Assign-Projects' element={<Assign_projects />} exact />
+            <Route path='/Employee-application-details' element={<Employee_application_details />} exact />
             </Routes>
 
             </BrowserRouter>
@@ -46,6 +50,7 @@ function App() {
             {/* <Total_projects /> */}
             {/* <Pending_projects /> */}
             {/* <Employee_application /> */}
+            {/* <Employee_application_details /> */}
       </div>
     </>
   );

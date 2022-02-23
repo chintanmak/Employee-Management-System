@@ -9,43 +9,44 @@ export default class Employee_details extends Component {
             <div className='employee-details-section'>
 
                 <div className='employee-details-header'>
-                    <p className='input-label-24 color-secondary'>Chintan Makwana</p>
+                    <p className='header-36 color-secondary'>Chintan Makwana</p>
+                    <hr />
                 </div>
 
                 <div className='employee-details-info-section'>
                     
                     <div className='employee-details-info'>
                         <div className='employee-details-inside-header'>
-                            <p className='input-label-15-bold'>Employee Details</p>
+                            <p className='input-label-24-bold'>Employee Details</p>
                         </div>
                         <div className='employee-details-inside-info'>
                         <ul>
                     
-                            <li className='input-label-15-bold color-secondary'>Name:</li>
-                            <p className='color-secondary input-label-15-bold'>Chintan Makwana</p>
+                            <li className='input-label-24-bold color-secondary'>Name:</li>
+                            <p className='color-secondary input-label-24-bold'>Chintan Makwana</p>
                             <hr />
                         
-                            <li className='input-label-15-bold color-secondary'>Email:</li>
-                            <p className='color-secondary input-label-15-bold'>Chintanmakwana2011@gmail.com</p>
+                            <li className='input-label-24-bold color-secondary'>Email:</li>
+                            <p className='color-secondary input-label-24-bold'>Chintanmakwana2011@gmail.com</p>
                             <hr />
                             
-                            <li className='input-label-15-bold color-secondary'>Role:</li>
-                            <p className='color-secondary input-label-15-bold'>Software Developer</p>
+                            <li className='input-label-24-bold color-secondary'>Role:</li>
+                            <p className='color-secondary input-label-24-bold'>Software Developer</p>
                             <hr />
 
-                            <li className='input-label-15-bold color-secondary'>Phone:</li>
-                            <p className='color-secondary input-label-15-bold'>9699421928</p>
+                            <li className='input-label-24-bold color-secondary'>Phone:</li>
+                            <p className='color-secondary input-label-24-bold'>9699421928</p>
                             <hr />
 
-                            <li className='input-label-15-bold color-secondary'>Joining Date:</li>
-                            <p className='color-secondary input-label-15-bold'>12-Nov</p>
+                            <li className='input-label-24-bold color-secondary'>Joining Date:</li>
+                            <p className='color-secondary input-label-24-bold'>12-Nov</p>
                         </ul>
                         </div>
                     </div>
 
                     <div className='employee-details-projects'>
                         <div className='employee-details-box1'>
-                            <p className='input-label-24 color-secondary'>
+                            <p className='input-label-24-bold color-secondary'>
                             Assigned Projects
                             </p>
                             <button className='active-button'>
@@ -54,7 +55,7 @@ export default class Employee_details extends Component {
                         </div>
 
                         <div className='employee-details-box1'>
-                            <p className='input-label-24 color-secondary'>
+                            <p className='input-label-24-bold color-secondary'>
                             Completed Projects
                             </p>
                             <button className='active-button'>
@@ -63,7 +64,7 @@ export default class Employee_details extends Component {
                         </div>
 
                         <div className='employee-details-box1'>
-                            <p className='input-label-24 color-secondary'>
+                            <p className='input-label-24-bold color-secondary'>
                             Pending Projects
                             </p>
                             <button className='active-button'>

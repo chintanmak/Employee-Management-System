@@ -16,7 +16,6 @@ export default class Assign_projects extends Component {
                     <p className='input-label-24 color-secondary'>Projects</p>
                 </div>
                 <hr />
-                <br />
                 <div className='assign-sections'>
                     <button className='nonactive-button'><img src={totalprojecticon} /> Total Projects</button>
                     <button className='nonactive-button'><img src={pendingprojecticon} /> Pending Projects</button>

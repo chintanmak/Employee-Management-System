@@ -14,10 +14,9 @@ export default class Pending_projects extends Component {
             
             <div className='Pending-project-container'>
                 <div className='Pending-project-details-header'>
-                    <p className='input-label-24 color-secondary'>Projects</p>
+                    <p className='header-36 color-secondary'>Projects</p>
                 </div>
                 <hr />
-                <br />
                 <div className='projects-sections'>
                     <button className='nonactive-button'><img src={totalprojecticon} /> Total Projects</button>
                     <button className='active-button'><img src={pendingprojecticon} /> Pending Projects</button>
@@ -26,15 +25,15 @@ export default class Pending_projects extends Component {
 
                 <div className='Pending-project-main-list'>
                 <div className='Pending-project-header-list'>
-                    <p className='input-label-15-bold color-white'>Employee Name</p>
-                    <p className='input-label-15-bold color-white'>Reg. Date</p>
-                    <p className='input-label-15-bold color-white'>See Details</p>
+                    <p className='input-label-24-bold color-white'>Employee Name</p>
+                    <p className='input-label-24-bold color-white'>Reg. Date</p>
+                    <p className='input-label-24-bold color-white'>See Details</p>
                 </div>
 
                 <div className='Pending-project-main-list'>
-                    <p className='input-label-15-bold color-lightgreen'>Chintan Makwana</p>
-                    <p className='input-label-15-bold color-lightgreen'>DD/MM/YY</p>
-                    <p className='input-label-15-bold color-lightgreen'>View</p>
+                    <p className='input-label-24-bold color-lightgreen'>Chintan Makwana</p>
+                    <p className='input-label-24-bold color-lightgreen'>DD/MM/YY</p>
+                    <p className='input-label-24-bold color-lightgreen'>View</p>
                 </div>
 
 

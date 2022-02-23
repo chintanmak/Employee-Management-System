@@ -17,10 +17,12 @@
             justify-content: center;
             align-items: center;
             height: 10rem;
+            margin: 3rem 0;
             // border: 1px solid;
         }
 
         & .left-navigation-menu-container{
+            padding: 1rem 3rem;
             & ul{
                 
                 & li{    

@@ -1,4 +1,6 @@
+@import './fonts';
 @import './variable';
+
 
 .primarybtn{
     border: none;
@@ -17,8 +19,8 @@
 }
 
 .logo{
-    width: 10rem;
-    height: 6rem;
+    width: 15rem;
+    height: 8rem;
 }
 
 .active-button{
@@ -26,11 +28,14 @@
     background-color: $secondarygreen;
     color: $pure;
     border: none;
-    padding: 0 1rem;
-    font-size: 1.5rem;
+    padding: 0 2rem;
+    font-size: 2rem;
     text-align: left;
     cursor: pointer;
+}
 
+.active-button:hover{
+    filter: brightness(130%);
 }
 
 .nonactive-button{
@@ -38,12 +43,16 @@
     border: none;
     background-color: $pure;
     color: $lightgreen;
-    padding: 0 1rem;
-    font-size: 1.5rem;
+    padding: 0 2rem;
+    font-size: 2rem;
     text-align: left;
     cursor: pointer;
-
 }
+
+.nonactive-button:hover{
+    filter: brightness(130%);
+}
+
 
 hr{
     width: 100%;
@@ -58,4 +67,8 @@ hr{
     border: none;
     border-radius: 1rem;
     padding: 0 1rem;
+}
+
+.border{
+    border: 2px solid $secondarygreen;
 }
