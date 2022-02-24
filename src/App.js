@@ -15,6 +15,7 @@ import Employee_details from './Components/Employer/Dashboard/Container/employee
 import Employee_application from './Components/Employer/Dashboard/Container/employeeapplication';
 import Total_projects from './Components/Employer/Dashboard/Container/totalprojects';
 import Pending_projects from './Components/Employer/Dashboard/Container/pendingprojects';
+import Project_view_details from './Components/Employer/Dashboard/Container/project-view-details';
 import Assign_projects from './Components/Employer/Dashboard/Container/assignprojects';
 import Employee_application_details from './Components/Employer/Dashboard/Container/employee-application-details';
 
@@ -35,6 +36,7 @@ function App() {
             <Route path='/Employee-application' element={<Employee_application />} exact />
             <Route path='/Total-Projects' element={<Total_projects />} exact />
             <Route path='/Pending-Projects' element={<Pending_projects />} exact />
+            <Route path='Project-view-details' element={<Project_view_details />} exact />
             <Route path='/Assign-Projects' element={<Assign_projects />} exact />
             <Route path='/Employee-application-details' element={<Employee_application_details />} exact />
             </Routes>
@@ -49,6 +51,8 @@ function App() {
             {/* <Employee_details /> */}
             {/* <Total_projects /> */}
             {/* <Pending_projects /> */}
+            {/* <Project_view_details /> */}
+            {/* <Assign_projects /> */}
             {/* <Employee_application /> */}
             {/* <Employee_application_details /> */}
       </div>

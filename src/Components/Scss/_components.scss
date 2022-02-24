@@ -61,6 +61,7 @@ hr{
     background-color: $primarycolor;
 }
 
+
 .inputboxs{
     color: $secondarygreen;
     background-color: $primarycolor;
@@ -71,4 +72,8 @@ hr{
 
 .border{
     border: 2px solid $secondarygreen;
+}
+
+textarea{
+    resize: none;
 }

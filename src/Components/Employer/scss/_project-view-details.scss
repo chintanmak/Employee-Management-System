@@ -1,0 +1,84 @@
+@import '../../Scss/components';
+@import '../../Scss/fonts';
+@import '../../Scss/variable';
+
+.project-view-details-page{
+    position: relative;
+    width: initial;
+    height: 100%;
+    border-radius: 5rem 0 0 0;
+    background-color: $primarycolor;
+    overflow: overlay;
+
+    & .project-view-details-container{
+        display: flex;
+        flex-direction: column;
+        padding: 5rem 1rem; 
+
+        & .project-view-details-header{
+            text-align: center;
+        }
+        & hr{
+            margin: 3rem 0;
+            background-color: $lightgreen;  
+        }
+        & .projects-sections{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            & button{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 35rem;
+                height: 4rem;
+            }
+        }
+        & .project-view-details{
+            position: relative;
+            background-color: $pure;
+            box-shadow: 0 0 1rem rgba($color: #000000, $alpha: 0.1);
+            border-radius: 1rem;
+            margin: 2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 3rem;
+            & .project-view-details-headers{
+                margin: 1rem;
+                border-radius: 1rem;
+                background-color: $primarycolor;
+                color: $secondarygreen;
+                text-align: center;
+                padding: 1rem;
+            }
+           & .project-view-details-content{
+               padding:  1rem 3rem;
+
+               & .project-view-details-file{
+                   display: flex;
+                   flex-direction: row;
+                   justify-content: space-between;
+
+                   & button{
+                       text-align: center;
+                       width: 20rem;
+                       height: 4rem;
+                   }
+               }
+           }
+           & .project-view-details-decision{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin-top: 8rem;
+                padding: 3rem;
+                
+                & button{
+                    text-align: center;
+                    width: 25rem;
+                    height: 4rem;
+                }
+           }
+        }
+    }
+}
