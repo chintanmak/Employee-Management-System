@@ -13,6 +13,12 @@
 @import '../Employer/scss/project-view-details'; 
 @import '../Employer/scss/assignprojects';
 
+@import '../Employee/scss/employeelogin';
+@import '../Employee/scss/employee-dashboard';
+@import '../Employee/scss/employee-profile';
+@import '../Employee/scss/project-list';
+@import '../Employee/scss/project-details';
+
 html{
     font-size: 62.5%;
     font-family: 'Roboto', sans-serif;

@@ -23,6 +23,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400&family=Roboto:wght@300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400&family=Roboto:wght@300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400&family=Roboto:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400&family=Roboto:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400&family=Roboto:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400&family=Roboto:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400&family=Roboto:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400&family=Roboto:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400&family=Roboto:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400&family=Roboto:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400&family=Roboto:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400&family=Roboto:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400&family=Roboto:wght@300;400;700&display=swap");
 .color-white {
   color: #fff;
 }
@@ -4384,6 +4394,1621 @@ textarea {
 .assign-project-page .assign-project-container .assignments-container .assignments-sections .select-employee-assignment .checkbox-assign-employee {
   padding: 1rem 1.5rem;
   text-align: left;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.color-lightgreen {
+  color: #4D8F69;
+}
+
+.color-primary {
+  color: #E4EFE7;
+}
+
+.color-secondary {
+  color: #064420;
+}
+
+.header-42-bold {
+  font-size: 4.2rem;
+  font-style: normal;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-36-bold {
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-36-reg {
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-36 {
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-30 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-24 {
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-24-bold {
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-20 {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-15 {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-15-bold {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.color-lightgreen {
+  color: #4D8F69;
+}
+
+.color-primary {
+  color: #E4EFE7;
+}
+
+.color-secondary {
+  color: #064420;
+}
+
+.primarybtn {
+  border: none;
+  width: 100%;
+  height: 3rem;
+  border-radius: 0.5rem;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: #064420;
+}
+
+.primarybtn:hover {
+  -webkit-filter: brightness(130%);
+          filter: brightness(130%);
+}
+
+.logo {
+  width: 15rem;
+  height: 8rem;
+}
+
+.active-button {
+  border-radius: 0.5rem;
+  background-color: #064420;
+  color: #fff;
+  border: none;
+  padding: 0 2rem;
+  font-size: 2rem;
+  text-align: left;
+  cursor: pointer;
+}
+
+.active-button:hover {
+  -webkit-filter: brightness(130%);
+          filter: brightness(130%);
+}
+
+.nonactive-button {
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #fff;
+  color: #4D8F69;
+  padding: 0 2rem;
+  font-size: 2rem;
+  text-align: left;
+  cursor: pointer;
+}
+
+.nonactive-button:hover {
+  -webkit-filter: brightness(130%);
+          filter: brightness(130%);
+}
+
+hr {
+  width: 100%;
+  border: none;
+  height: 0.2rem;
+  background-color: #E4EFE7;
+}
+
+.inputboxs {
+  color: #064420;
+  background-color: #E4EFE7;
+  border: none;
+  border-radius: 1rem;
+  padding: 0 1rem;
+}
+
+.border {
+  border: 2px solid #064420;
+}
+
+textarea {
+  resize: none;
+}
+
+.header-42-bold {
+  font-size: 4.2rem;
+  font-style: normal;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-36-bold {
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-36-reg {
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-36 {
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-30 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-24 {
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-24-bold {
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-20 {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-15 {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-15-bold {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.login-page {
+  background-color: #E4EFE7;
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.login-page .login-container {
+  position: relative;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 2rem;
+  width: 80%;
+  height: 80%;
+  border-radius: 1rem;
+}
+
+.login-page .login-container .login-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5rem 0;
+}
+
+.login-page .login-container .login-logo .logo {
+  width: 10rem;
+  height: 6rem;
+  padding-bottom: 4rem;
+}
+
+.login-page .login-container .login-logo .empimg {
+  width: 30rem;
+  height: 25rem;
+}
+
+.login-page .login-container .login-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login-page .login-container .login-section h1 {
+  padding-top: 3rem;
+  text-align: center;
+}
+
+.login-page .login-container .login-section .loginuserpass {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login-page .login-container .login-section .loginuserpass p {
+  padding-right: 2rem;
+}
+
+.login-page .login-container .login-section .loginuserpass .loginids {
+  border: none;
+  background-color: #E4EFE7;
+  width: 20rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+  padding: 0 1rem;
+}
+
+.header-42-bold {
+  font-size: 4.2rem;
+  font-style: normal;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-36-bold {
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-36-reg {
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-36 {
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-30 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-24 {
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-24-bold {
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-20 {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-15 {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-15-bold {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.color-lightgreen {
+  color: #4D8F69;
+}
+
+.color-primary {
+  color: #E4EFE7;
+}
+
+.color-secondary {
+  color: #064420;
+}
+
+.primarybtn {
+  border: none;
+  width: 100%;
+  height: 3rem;
+  border-radius: 0.5rem;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: #064420;
+}
+
+.primarybtn:hover {
+  -webkit-filter: brightness(130%);
+          filter: brightness(130%);
+}
+
+.logo {
+  width: 15rem;
+  height: 8rem;
+}
+
+.active-button {
+  border-radius: 0.5rem;
+  background-color: #064420;
+  color: #fff;
+  border: none;
+  padding: 0 2rem;
+  font-size: 2rem;
+  text-align: left;
+  cursor: pointer;
+}
+
+.active-button:hover {
+  -webkit-filter: brightness(130%);
+          filter: brightness(130%);
+}
+
+.nonactive-button {
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #fff;
+  color: #4D8F69;
+  padding: 0 2rem;
+  font-size: 2rem;
+  text-align: left;
+  cursor: pointer;
+}
+
+.nonactive-button:hover {
+  -webkit-filter: brightness(130%);
+          filter: brightness(130%);
+}
+
+hr {
+  width: 100%;
+  border: none;
+  height: 0.2rem;
+  background-color: #E4EFE7;
+}
+
+.inputboxs {
+  color: #064420;
+  background-color: #E4EFE7;
+  border: none;
+  border-radius: 1rem;
+  padding: 0 1rem;
+}
+
+.border {
+  border: 2px solid #064420;
+}
+
+textarea {
+  resize: none;
+}
+
+.header-42-bold {
+  font-size: 4.2rem;
+  font-style: normal;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-36-bold {
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-36-reg {
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-36 {
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-30 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-24 {
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-24-bold {
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-20 {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-15 {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-15-bold {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.color-lightgreen {
+  color: #4D8F69;
+}
+
+.color-primary {
+  color: #E4EFE7;
+}
+
+.color-secondary {
+  color: #064420;
+}
+
+.dashboard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.dashboard .left-navigation-panel {
+  width: 18%;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dashboard .left-navigation-panel .dashboard-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 10rem;
+  margin: 3rem 0;
+}
+
+.dashboard .left-navigation-panel .left-navigation-menu-container {
+  padding: 1rem 3rem;
+}
+
+.dashboard .left-navigation-panel .left-navigation-menu-container ul li {
+  color: #4D8F69;
+  padding: 1rem;
+  list-style: none;
+}
+
+.dashboard .left-navigation-panel .left-navigation-menu-container ul li img {
+  padding-right: 1rem;
+}
+
+.dashboard .right-dashboard-panel {
+  width: 82%;
+  position: relative;
+}
+
+.header-42-bold {
+  font-size: 4.2rem;
+  font-style: normal;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-36-bold {
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-36-reg {
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-36 {
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-30 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-24 {
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-24-bold {
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-20 {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-15 {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-15-bold {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.color-lightgreen {
+  color: #4D8F69;
+}
+
+.color-primary {
+  color: #E4EFE7;
+}
+
+.color-secondary {
+  color: #064420;
+}
+
+.primarybtn {
+  border: none;
+  width: 100%;
+  height: 3rem;
+  border-radius: 0.5rem;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: #064420;
+}
+
+.primarybtn:hover {
+  -webkit-filter: brightness(130%);
+          filter: brightness(130%);
+}
+
+.logo {
+  width: 15rem;
+  height: 8rem;
+}
+
+.active-button {
+  border-radius: 0.5rem;
+  background-color: #064420;
+  color: #fff;
+  border: none;
+  padding: 0 2rem;
+  font-size: 2rem;
+  text-align: left;
+  cursor: pointer;
+}
+
+.active-button:hover {
+  -webkit-filter: brightness(130%);
+          filter: brightness(130%);
+}
+
+.nonactive-button {
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #fff;
+  color: #4D8F69;
+  padding: 0 2rem;
+  font-size: 2rem;
+  text-align: left;
+  cursor: pointer;
+}
+
+.nonactive-button:hover {
+  -webkit-filter: brightness(130%);
+          filter: brightness(130%);
+}
+
+hr {
+  width: 100%;
+  border: none;
+  height: 0.2rem;
+  background-color: #E4EFE7;
+}
+
+.inputboxs {
+  color: #064420;
+  background-color: #E4EFE7;
+  border: none;
+  border-radius: 1rem;
+  padding: 0 1rem;
+}
+
+.border {
+  border: 2px solid #064420;
+}
+
+textarea {
+  resize: none;
+}
+
+.header-42-bold {
+  font-size: 4.2rem;
+  font-style: normal;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-36-bold {
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-36-reg {
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-36 {
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-30 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-24 {
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-24-bold {
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-20 {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-15 {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-15-bold {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.color-lightgreen {
+  color: #4D8F69;
+}
+
+.color-primary {
+  color: #E4EFE7;
+}
+
+.color-secondary {
+  color: #064420;
+}
+
+.employee-profile-details-container {
+  position: relative;
+  width: initial;
+  height: 100%;
+  border-radius: 5rem 0 0 0;
+  background-color: #E4EFE7;
+  overflow: overlay;
+}
+
+.employee-profile-details-container .employee-profile-details-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 5rem 1rem;
+}
+
+.employee-profile-details-container .employee-profile-details-section .employee-profile-details-info-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.employee-profile-details-container .employee-profile-details-section .employee-profile-details-info-section .employee-profile-details-info {
+  position: relative;
+  width: 95%;
+  height: 100%;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  margin: 4rem 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.employee-profile-details-container .employee-profile-details-section .employee-profile-details-info-section .employee-profile-details-info .employee-profile-details-inside-header {
+  margin: 1rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: #E4EFE7;
+  color: #064420;
+  text-align: center;
+}
+
+.employee-profile-details-container .employee-profile-details-section .employee-profile-details-info-section .employee-profile-details-info .employee-profile-details-inside-info {
+  padding: 0 4rem;
+}
+
+.employee-profile-details-container .employee-profile-details-section .employee-profile-details-info-section .employee-profile-details-info .employee-profile-details-inside-info ul {
+  padding: 1rem 2rem;
+}
+
+.employee-profile-details-container .employee-profile-details-section .employee-profile-details-info-section .employee-profile-details-info .employee-profile-details-inside-info ul li {
+  padding: 1rem 0;
+}
+
+.employee-profile-details-container .employee-profile-details-section .employee-profile-details-info-section .employee-profile-details-info .employee-profile-details-inside-info ul p {
+  padding: 1rem 0;
+}
+
+.employee-profile-details-container .employee-profile-details-section .employee-profile-details-info-section .employee-profile-details-projects {
+  position: relative;
+  width: 95%;
+  height: 100%;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  margin: 0 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.employee-profile-details-container .employee-profile-details-section .employee-profile-details-info-section .employee-profile-details-projects .employee-profile-details-box1 {
+  background-color: #E4EFE7;
+  margin: 2rem 5rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 30rem;
+  height: 25rem;
+}
+
+.employee-profile-details-container .employee-profile-details-section .employee-profile-details-info-section .employee-profile-details-projects .employee-profile-details-box1 button {
+  margin-top: 6rem;
+  width: 100%;
+  height: 30%;
+  text-align: center;
+  font-size: 3.6rem;
+}
+
+.header-42-bold {
+  font-size: 4.2rem;
+  font-style: normal;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-36-bold {
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-36-reg {
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-36 {
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-30 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-24 {
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-24-bold {
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-20 {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-15 {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-15-bold {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.color-lightgreen {
+  color: #4D8F69;
+}
+
+.color-primary {
+  color: #E4EFE7;
+}
+
+.color-secondary {
+  color: #064420;
+}
+
+.primarybtn {
+  border: none;
+  width: 100%;
+  height: 3rem;
+  border-radius: 0.5rem;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: #064420;
+}
+
+.primarybtn:hover {
+  -webkit-filter: brightness(130%);
+          filter: brightness(130%);
+}
+
+.logo {
+  width: 15rem;
+  height: 8rem;
+}
+
+.active-button {
+  border-radius: 0.5rem;
+  background-color: #064420;
+  color: #fff;
+  border: none;
+  padding: 0 2rem;
+  font-size: 2rem;
+  text-align: left;
+  cursor: pointer;
+}
+
+.active-button:hover {
+  -webkit-filter: brightness(130%);
+          filter: brightness(130%);
+}
+
+.nonactive-button {
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #fff;
+  color: #4D8F69;
+  padding: 0 2rem;
+  font-size: 2rem;
+  text-align: left;
+  cursor: pointer;
+}
+
+.nonactive-button:hover {
+  -webkit-filter: brightness(130%);
+          filter: brightness(130%);
+}
+
+hr {
+  width: 100%;
+  border: none;
+  height: 0.2rem;
+  background-color: #E4EFE7;
+}
+
+.inputboxs {
+  color: #064420;
+  background-color: #E4EFE7;
+  border: none;
+  border-radius: 1rem;
+  padding: 0 1rem;
+}
+
+.border {
+  border: 2px solid #064420;
+}
+
+textarea {
+  resize: none;
+}
+
+.header-42-bold {
+  font-size: 4.2rem;
+  font-style: normal;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-36-bold {
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-36-reg {
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-36 {
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-30 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-24 {
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-24-bold {
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-20 {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-15 {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-15-bold {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.color-lightgreen {
+  color: #4D8F69;
+}
+
+.color-primary {
+  color: #E4EFE7;
+}
+
+.color-secondary {
+  color: #064420;
+}
+
+.project-list-container {
+  position: relative;
+  width: initial;
+  height: 100%;
+  border-radius: 5rem 0 0 0;
+  background-color: #E4EFE7;
+}
+
+.project-list-container .project-list-section {
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5rem 1rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.project-list-container .project-list-section .project-list-header {
+  text-align: center;
+}
+
+.project-list-container .project-list-section hr {
+  margin: 3rem 0;
+  background-color: #4D8F69;
+}
+
+.project-list-container .project-list-section .project-list-sections {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2rem 1rem;
+  gap: 1rem;
+  overflow: overlay;
+}
+
+.project-list-container .project-list-section .project-list-sections .project-list-headers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #064420;
+  border-radius: 1rem;
+  padding: 0 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 5rem;
+}
+
+.project-list-container .project-list-section .project-list-sections .project-list-headers p {
+  width: 25rem;
+  text-align: center;
+}
+
+.project-list-container .project-list-section .project-list-sections .project-list-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 0 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 5rem;
+}
+
+.project-list-container .project-list-section .project-list-sections .project-list-main p {
+  width: 25rem;
+  text-align: center;
+}
+
+.header-42-bold {
+  font-size: 4.2rem;
+  font-style: normal;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-36-bold {
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-36-reg {
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-36 {
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-30 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-24 {
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-24-bold {
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-20 {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-15 {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-15-bold {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.color-lightgreen {
+  color: #4D8F69;
+}
+
+.color-primary {
+  color: #E4EFE7;
+}
+
+.color-secondary {
+  color: #064420;
+}
+
+.primarybtn {
+  border: none;
+  width: 100%;
+  height: 3rem;
+  border-radius: 0.5rem;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: #064420;
+}
+
+.primarybtn:hover {
+  -webkit-filter: brightness(130%);
+          filter: brightness(130%);
+}
+
+.logo {
+  width: 15rem;
+  height: 8rem;
+}
+
+.active-button {
+  border-radius: 0.5rem;
+  background-color: #064420;
+  color: #fff;
+  border: none;
+  padding: 0 2rem;
+  font-size: 2rem;
+  text-align: left;
+  cursor: pointer;
+}
+
+.active-button:hover {
+  -webkit-filter: brightness(130%);
+          filter: brightness(130%);
+}
+
+.nonactive-button {
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #fff;
+  color: #4D8F69;
+  padding: 0 2rem;
+  font-size: 2rem;
+  text-align: left;
+  cursor: pointer;
+}
+
+.nonactive-button:hover {
+  -webkit-filter: brightness(130%);
+          filter: brightness(130%);
+}
+
+hr {
+  width: 100%;
+  border: none;
+  height: 0.2rem;
+  background-color: #E4EFE7;
+}
+
+.inputboxs {
+  color: #064420;
+  background-color: #E4EFE7;
+  border: none;
+  border-radius: 1rem;
+  padding: 0 1rem;
+}
+
+.border {
+  border: 2px solid #064420;
+}
+
+textarea {
+  resize: none;
+}
+
+.header-42-bold {
+  font-size: 4.2rem;
+  font-style: normal;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-36-bold {
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-36-reg {
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-36 {
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-30 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-24 {
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-24-bold {
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-20 {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-15 {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-15-bold {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.color-lightgreen {
+  color: #4D8F69;
+}
+
+.color-primary {
+  color: #E4EFE7;
+}
+
+.color-secondary {
+  color: #064420;
 }
 
 html {

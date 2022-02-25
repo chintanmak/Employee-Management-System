@@ -18,6 +18,9 @@ import Pending_projects from './Components/Employer/Dashboard/Container/pendingp
 import Project_view_details from './Components/Employer/Dashboard/Container/project-view-details';
 import Assign_projects from './Components/Employer/Dashboard/Container/assignprojects';
 import Employee_application_details from './Components/Employer/Dashboard/Container/employee-application-details';
+import Employee_dashboard from './Components/Employee/Employee-Dashboard/employee-dashboard';
+import Employee_profile from './Components/Employee/Employee-Dashboard/Employee-Container/employee-profile';
+import Project_list from './Components/Employee/Employee-Dashboard/Employee-Container/project-list';
 
 
 
@@ -27,7 +30,7 @@ function App() {
       <div>
             <BrowserRouter>
             <Routes>
-            <Route path="/Employerlogin" element={<Employerlogin />} exact />
+            {/* <Route path="/Employerlogin" element={<Employerlogin />} exact />
             <Route path="/dashboard" element={<Dashboard />} exact />
             <Route path="/Employer-dashboard" element={<Employerdashboard /> } exact />
             <Route path='/Employee-list' element={<Employee_list />} exact />
@@ -39,6 +42,11 @@ function App() {
             <Route path='Project-view-details' element={<Project_view_details />} exact />
             <Route path='/Assign-Projects' element={<Assign_projects />} exact />
             <Route path='/Employee-application-details' element={<Employee_application_details />} exact />
+             */}
+            <Route path='/Employee-Dashboard' element={<Employee_dashboard />} exact />
+            <Route path='/Employee-profile' element={<Employee_profile />} exact />
+            <Route path='/Project-list' element={<Project_list />} exact />
+
             </Routes>
 
             </BrowserRouter>
