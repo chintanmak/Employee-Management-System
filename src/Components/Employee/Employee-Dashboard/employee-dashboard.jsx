@@ -11,6 +11,10 @@ import logouticon from '../../Assets/svgs/logout.svg';
 import Employee_profile from './Employee-Container/employee-profile';
 import Project_list from './Employee-Container/project-list';
 import Project_details from './Employee-Container/project-details';
+import Project_Submission from './Employee-Container/project-submission';
+import Application_list from './Employee-Container/application-list';
+import Add_application from './Employee-Container/add-application';
+import Application_details from './Employee-Container/application-details';
 
 export default class Employee_dashboard extends Component {
   render() {
@@ -39,7 +43,11 @@ export default class Employee_dashboard extends Component {
             <Employee_profile />
             <Project_list />
             <Project_details />
-            
+            <Project_Submission />
+            <Application_list />
+            <Add_application />
+            <Application_details />
+
             </div>
 
         </div>

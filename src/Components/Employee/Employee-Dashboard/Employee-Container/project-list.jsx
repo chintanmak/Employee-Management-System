@@ -14,26 +14,14 @@ export default class Project_list extends Component {
 
                 <div className='project-list-sections'>
                     <div className='project-list-headers'>
-                    <p className='input-label-24-bold color-white'>Title</p>
+                    <p className='input-label-24-bold color-white project-title'>Title</p>
                     <p className='input-label-24-bold color-white'>submitted On</p>
                     <p className='input-label-24-bold color-white'>See Details</p>    
                     </div>
 
                     <div className='project-list-main'>
-                    <p className='input-label-24-bold color-lightgreen'>Chintan Makwana</p>
-                    <p className='input-label-24-bold color-lightgreen'>DD/MM/YY</p>
-                    <p className='input-label-24-bold color-lightgreen'>View</p>
-                    </div>
-
-                    <div className='project-list-main'>
-                    <p className='input-label-24-bold color-lightgreen'>Prateek kuber</p>
-                    <p className='input-label-24-bold color-lightgreen'>DD/MM/YY</p>
-                    <p className='input-label-24-bold color-lightgreen'>View</p>
-                    </div>
-
-                    <div className='project-list-main'>
-                    <p className='input-label-24-bold color-lightgreen'>Govind kshirsagar</p>
-                    <p className='input-label-24-bold color-lightgreen'>DD/MM/YY</p>
+                    <p className='input-label-24-bold color-lightgreen project-title'>Designing on on application .....</p>
+                    <p className='input-label-24-bold color-lightgreen'>18/03/22</p>
                     <p className='input-label-24-bold color-lightgreen'>View</p>
                     </div>
                 </div>

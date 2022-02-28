@@ -1,0 +1,61 @@
+@import '../../Scss/components';
+@import '../../Scss/fonts';
+@import '../../Scss/variable';
+
+.application-details{
+    position: relative;
+    width: initial;
+    height: 100%;
+    border-radius: 5rem 0 0 0;
+    background-color: $primarycolor;
+    overflow: overlay;
+    & .application-details-container{
+        padding: 2rem;
+        display: flex;
+        padding: 5rem 1rem;
+        flex-direction: column;
+        & .application-details-header{
+            margin-top: 3rem;
+            padding: 2rem;
+            text-align: left;
+            & hr{
+                margin-top: 3rem;
+                background-color: $lightgreen;  
+            }
+        }
+        & .application-details{
+            position: relative;
+            background-color: $pure;
+            box-shadow: 0 0 1rem rgba($color: #000000, $alpha: 0.1);
+            border-radius: 1rem;
+            margin: 0 2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 3rem;
+            & .application-details-headers{
+                margin: 1rem;
+                border-radius: 1rem;
+                background-color: $primarycolor;
+                color: $secondarygreen;
+                text-align: center;
+                padding: 1rem;
+            }
+           & .application-details-content{
+               padding:  1rem 3rem;
+           }
+           & .application-details-decision{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                margin-top: 8rem;
+                padding: 3rem;
+                
+                & button{
+                    text-align: center;
+                    width: 25rem;
+                    height: 4rem;
+                }
+           }
+        }
+    }
+}

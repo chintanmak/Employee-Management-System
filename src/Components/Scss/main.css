@@ -33,6 +33,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400&family=Roboto:wght@300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400&family=Roboto:wght@300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400&family=Roboto:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400&family=Roboto:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400&family=Roboto:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400&family=Roboto:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400&family=Roboto:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400&family=Roboto:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400&family=Roboto:wght@300;400;700&display=swap");
 .color-white {
   color: #fff;
 }
@@ -5737,6 +5743,10 @@ textarea {
   text-align: center;
 }
 
+.project-list-container .project-list-section .project-list-sections .project-list-headers .project-title {
+  width: 50rem;
+}
+
 .project-list-container .project-list-section .project-list-sections .project-list-main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -5758,6 +5768,1104 @@ textarea {
 }
 
 .project-list-container .project-list-section .project-list-sections .project-list-main p {
+  width: 25rem;
+  text-align: center;
+}
+
+.project-list-container .project-list-section .project-list-sections .project-list-main .project-title {
+  width: 50rem;
+}
+
+.header-42-bold {
+  font-size: 4.2rem;
+  font-style: normal;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-36-bold {
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-36-reg {
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-36 {
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-30 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-24 {
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-24-bold {
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-20 {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-15 {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-15-bold {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.color-lightgreen {
+  color: #4D8F69;
+}
+
+.color-primary {
+  color: #E4EFE7;
+}
+
+.color-secondary {
+  color: #064420;
+}
+
+.primarybtn {
+  border: none;
+  width: 100%;
+  height: 3rem;
+  border-radius: 0.5rem;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: #064420;
+}
+
+.primarybtn:hover {
+  -webkit-filter: brightness(130%);
+          filter: brightness(130%);
+}
+
+.logo {
+  width: 15rem;
+  height: 8rem;
+}
+
+.active-button {
+  border-radius: 0.5rem;
+  background-color: #064420;
+  color: #fff;
+  border: none;
+  padding: 0 2rem;
+  font-size: 2rem;
+  text-align: left;
+  cursor: pointer;
+}
+
+.active-button:hover {
+  -webkit-filter: brightness(130%);
+          filter: brightness(130%);
+}
+
+.nonactive-button {
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #fff;
+  color: #4D8F69;
+  padding: 0 2rem;
+  font-size: 2rem;
+  text-align: left;
+  cursor: pointer;
+}
+
+.nonactive-button:hover {
+  -webkit-filter: brightness(130%);
+          filter: brightness(130%);
+}
+
+hr {
+  width: 100%;
+  border: none;
+  height: 0.2rem;
+  background-color: #E4EFE7;
+}
+
+.inputboxs {
+  color: #064420;
+  background-color: #E4EFE7;
+  border: none;
+  border-radius: 1rem;
+  padding: 0 1rem;
+}
+
+.border {
+  border: 2px solid #064420;
+}
+
+textarea {
+  resize: none;
+}
+
+.header-42-bold {
+  font-size: 4.2rem;
+  font-style: normal;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-36-bold {
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-36-reg {
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-36 {
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-30 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-24 {
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-24-bold {
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-20 {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-15 {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-15-bold {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.color-lightgreen {
+  color: #4D8F69;
+}
+
+.color-primary {
+  color: #E4EFE7;
+}
+
+.color-secondary {
+  color: #064420;
+}
+
+.project-details-container {
+  position: relative;
+  width: initial;
+  height: 100%;
+  border-radius: 5rem 0 0 0;
+  background-color: #E4EFE7;
+}
+
+.project-details-container .project-details-section {
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5rem 1rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.project-details-container .project-details-section .project-details-headers {
+  text-align: center;
+}
+
+.project-details-container .project-details-section hr {
+  margin: 1rem 0;
+  background-color: #4D8F69;
+}
+
+.project-details-container .project-details-section .project-details-info {
+  position: relative;
+  width: 97%;
+  height: 100%;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  margin: 4rem 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: overlay;
+}
+
+.project-details-container .project-details-section .project-details-info .project-details-inside-header {
+  margin: 1rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: #E4EFE7;
+  color: #064420;
+  text-align: center;
+}
+
+.project-details-container .project-details-section .project-details-info .project-details-inside-info {
+  padding: 0 4rem;
+}
+
+.project-details-container .project-details-section .project-details-info .project-details-inside-info ul {
+  padding: 1rem 2rem;
+}
+
+.project-details-container .project-details-section .project-details-info .project-details-inside-info ul li {
+  padding: 1rem 0;
+}
+
+.project-details-container .project-details-section .project-details-info .project-details-inside-info ul p {
+  padding: 1rem 0;
+}
+
+.project-details-container .project-details-section .project-details-info .project-details-inside-info .btn-submission {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 3rem 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.project-details-container .project-details-section .project-details-info .project-details-inside-info .btn-submission button {
+  text-align: center;
+  width: 18rem;
+  height: 4rem;
+}
+
+.header-42-bold {
+  font-size: 4.2rem;
+  font-style: normal;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-36-bold {
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-36-reg {
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-36 {
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-30 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-24 {
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-24-bold {
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-20 {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-15 {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-15-bold {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.color-lightgreen {
+  color: #4D8F69;
+}
+
+.color-primary {
+  color: #E4EFE7;
+}
+
+.color-secondary {
+  color: #064420;
+}
+
+.primarybtn {
+  border: none;
+  width: 100%;
+  height: 3rem;
+  border-radius: 0.5rem;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: #064420;
+}
+
+.primarybtn:hover {
+  -webkit-filter: brightness(130%);
+          filter: brightness(130%);
+}
+
+.logo {
+  width: 15rem;
+  height: 8rem;
+}
+
+.active-button {
+  border-radius: 0.5rem;
+  background-color: #064420;
+  color: #fff;
+  border: none;
+  padding: 0 2rem;
+  font-size: 2rem;
+  text-align: left;
+  cursor: pointer;
+}
+
+.active-button:hover {
+  -webkit-filter: brightness(130%);
+          filter: brightness(130%);
+}
+
+.nonactive-button {
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #fff;
+  color: #4D8F69;
+  padding: 0 2rem;
+  font-size: 2rem;
+  text-align: left;
+  cursor: pointer;
+}
+
+.nonactive-button:hover {
+  -webkit-filter: brightness(130%);
+          filter: brightness(130%);
+}
+
+hr {
+  width: 100%;
+  border: none;
+  height: 0.2rem;
+  background-color: #E4EFE7;
+}
+
+.inputboxs {
+  color: #064420;
+  background-color: #E4EFE7;
+  border: none;
+  border-radius: 1rem;
+  padding: 0 1rem;
+}
+
+.border {
+  border: 2px solid #064420;
+}
+
+textarea {
+  resize: none;
+}
+
+.header-42-bold {
+  font-size: 4.2rem;
+  font-style: normal;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-36-bold {
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-36-reg {
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-36 {
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-30 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-24 {
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-24-bold {
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-20 {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-15 {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-15-bold {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.color-lightgreen {
+  color: #4D8F69;
+}
+
+.color-primary {
+  color: #E4EFE7;
+}
+
+.color-secondary {
+  color: #064420;
+}
+
+.project-submission-container {
+  position: relative;
+  width: initial;
+  height: 100%;
+  border-radius: 5rem 0 0 0;
+  background-color: #E4EFE7;
+}
+
+.project-submission-container .project-submission-section {
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5rem 1rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.project-submission-container .project-submission-section .project-submission-header {
+  text-align: center;
+}
+
+.project-submission-container .project-submission-section hr {
+  margin: 1rem 0;
+  background-color: #4D8F69;
+}
+
+.project-submission-container .project-submission-section .project-submission-info-container {
+  position: relative;
+  width: 97%;
+  height: 100%;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  margin: 4rem 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: overlay;
+}
+
+.project-submission-container .project-submission-section .project-submission-info-container .project-header {
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: #E4EFE7;
+  color: #064420;
+  text-align: center;
+}
+
+.project-submission-container .project-submission-section .project-submission-info-container .project-submission-sections {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.project-submission-container .project-submission-section .project-submission-info-container .project-submission-sections .project-forms-container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.project-submission-container .project-submission-section .project-submission-info-container .project-submission-sections .project-forms-container .project-form {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+}
+
+.project-submission-container .project-submission-section .project-submission-info-container .project-submission-sections .project-forms-container .project-form p, .project-submission-container .project-submission-section .project-submission-info-container .project-submission-sections .project-forms-container .project-form input {
+  width: 15rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.project-submission-container .project-submission-section .project-submission-info-container .project-submission-sections .project-forms-container .project-form .addemp-assign {
+  width: 70rem;
+  height: 4rem;
+  border: none;
+}
+
+.project-submission-container .project-submission-section .project-submission-info-container .project-submission-sections .project-forms-container .project-form .addemp-assign-1 {
+  width: 70rem;
+  height: 15rem;
+  border: none;
+  padding: 1rem;
+}
+
+.project-submission-container .project-submission-section .project-submission-info-container .project-submission-sections .project-forms-container .project-submitbtn {
+  margin: 4rem;
+  margin-top: 8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.project-submission-container .project-submission-section .project-submission-info-container .project-submission-sections .project-forms-container .project-submitbtn button {
+  text-align: center;
+  width: 25rem;
+  height: 5rem;
+  font-size: 2.4rem;
+}
+
+.header-42-bold {
+  font-size: 4.2rem;
+  font-style: normal;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-36-bold {
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-36-reg {
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-36 {
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-30 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-24 {
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-24-bold {
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-20 {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-15 {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-15-bold {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.color-lightgreen {
+  color: #4D8F69;
+}
+
+.color-primary {
+  color: #E4EFE7;
+}
+
+.color-secondary {
+  color: #064420;
+}
+
+.primarybtn {
+  border: none;
+  width: 100%;
+  height: 3rem;
+  border-radius: 0.5rem;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: #064420;
+}
+
+.primarybtn:hover {
+  -webkit-filter: brightness(130%);
+          filter: brightness(130%);
+}
+
+.logo {
+  width: 15rem;
+  height: 8rem;
+}
+
+.active-button {
+  border-radius: 0.5rem;
+  background-color: #064420;
+  color: #fff;
+  border: none;
+  padding: 0 2rem;
+  font-size: 2rem;
+  text-align: left;
+  cursor: pointer;
+}
+
+.active-button:hover {
+  -webkit-filter: brightness(130%);
+          filter: brightness(130%);
+}
+
+.nonactive-button {
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #fff;
+  color: #4D8F69;
+  padding: 0 2rem;
+  font-size: 2rem;
+  text-align: left;
+  cursor: pointer;
+}
+
+.nonactive-button:hover {
+  -webkit-filter: brightness(130%);
+          filter: brightness(130%);
+}
+
+hr {
+  width: 100%;
+  border: none;
+  height: 0.2rem;
+  background-color: #E4EFE7;
+}
+
+.inputboxs {
+  color: #064420;
+  background-color: #E4EFE7;
+  border: none;
+  border-radius: 1rem;
+  padding: 0 1rem;
+}
+
+.border {
+  border: 2px solid #064420;
+}
+
+textarea {
+  resize: none;
+}
+
+.header-42-bold {
+  font-size: 4.2rem;
+  font-style: normal;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-36-bold {
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-36-reg {
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-36 {
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-30 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-24 {
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-24-bold {
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-20 {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-15 {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-label-15-bold {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.color-lightgreen {
+  color: #4D8F69;
+}
+
+.color-primary {
+  color: #E4EFE7;
+}
+
+.color-secondary {
+  color: #064420;
+}
+
+.application-list-container {
+  position: relative;
+  width: initial;
+  height: 100%;
+  border-radius: 5rem 0 0 0;
+  background-color: #E4EFE7;
+  overflow: overlay;
+}
+
+.application-list-container .aaplication-list-section {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: inherit;
+  padding: 5rem 1rem;
+}
+
+.application-list-container .aaplication-list-section .application-list-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 2rem;
+}
+
+.application-list-container .aaplication-list-section .application-list-header button {
+  width: 26rem;
+  height: 5rem;
+  text-align: center;
+  border: 2px solid #064420;
+}
+
+.application-list-container .aaplication-list-section .application-list-header button:hover {
+  width: 26rem;
+  height: 5rem;
+  text-align: center;
+  background-color: #064420;
+  color: #fff;
+}
+
+.application-list-container .aaplication-list-section .application-list-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2rem 1rem;
+  gap: 1rem;
+  overflow: overlay;
+}
+
+.application-list-container .aaplication-list-section .application-list-section .application-header-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #064420;
+  border-radius: 1rem;
+  padding: 0 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 5rem;
+}
+
+.application-list-container .aaplication-list-section .application-list-section .application-header-list p {
+  width: 25rem;
+  text-align: center;
+}
+
+.application-list-container .aaplication-list-section .application-list-section .application-main-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 0 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 5rem;
+}
+
+.application-list-container .aaplication-list-section .application-list-section .application-main-list p {
   width: 25rem;
   text-align: center;
 }
@@ -6009,6 +7117,144 @@ textarea {
 
 .color-secondary {
   color: #064420;
+}
+
+.add-application-container {
+  position: relative;
+  width: initial;
+  height: 100%;
+  border-radius: 5rem 0 0 0;
+  background-color: #E4EFE7;
+}
+
+.add-application-container .add-application-section {
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5rem 1rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.add-application-container .add-application-section .add-application-header {
+  text-align: center;
+}
+
+.add-application-container .add-application-section hr {
+  margin: 1rem 0;
+  background-color: #4D8F69;
+}
+
+.add-application-container .add-application-section .add-application-info-container {
+  position: relative;
+  width: 97%;
+  height: 100%;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  margin: 4rem 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: overlay;
+}
+
+.add-application-container .add-application-section .add-application-info-container .add-application-headers {
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: #E4EFE7;
+  color: #064420;
+  text-align: center;
+}
+
+.add-application-container .add-application-section .add-application-info-container .add-application-sections {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.add-application-container .add-application-section .add-application-info-container .add-application-sections .add-application-forms-container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.add-application-container .add-application-section .add-application-info-container .add-application-sections .add-application-forms-container .add-application-form {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+}
+
+.add-application-container .add-application-section .add-application-info-container .add-application-sections .add-application-forms-container .add-application-form p, .add-application-container .add-application-section .add-application-info-container .add-application-sections .add-application-forms-container .add-application-form input {
+  width: 15rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.add-application-container .add-application-section .add-application-info-container .add-application-sections .add-application-forms-container .add-application-form .addemp-assign {
+  width: 70rem;
+  height: 4rem;
+  border: none;
+}
+
+.add-application-container .add-application-section .add-application-info-container .add-application-sections .add-application-forms-container .add-application-form .addemp-assign-1 {
+  width: 70rem;
+  height: 15rem;
+  border: none;
+  padding: 1rem;
+}
+
+.add-application-container .add-application-section .add-application-info-container .add-application-sections .add-application-forms-container .add-application-submitbtn {
+  margin: 4rem;
+  margin-top: 8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.add-application-container .add-application-section .add-application-info-container .add-application-sections .add-application-forms-container .add-application-submitbtn button {
+  text-align: center;
+  width: 25rem;
+  height: 5rem;
+  font-size: 2.4rem;
 }
 
 html {

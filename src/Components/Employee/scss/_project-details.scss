@@ -2,3 +2,70 @@
 @import '../../Scss/fonts';
 @import '../../Scss/variable';
 
+.project-details-container{
+    position: relative;
+    width: initial;
+    height: 100%;
+    border-radius: 5rem 0 0 0;
+    background-color: $primarycolor;
+    & .project-details-section{
+        padding: 2rem;
+        display: flex;
+        padding: 5rem 1rem;
+        flex-direction: column;
+        & .project-details-headers{
+            text-align: center;       
+        }
+
+        & hr{
+            margin: 1rem 0;
+            background-color: $lightgreen;  
+        }
+        
+        & .project-details-info{
+            position: relative;
+            width: 97%;
+            height: 100%;
+            background-color: $pure;
+            box-shadow: 0 0 1rem rgba($color: #000000, $alpha: 0.1);
+            border-radius: 1rem;
+            margin: 4rem 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            overflow: overlay;
+            & .project-details-inside-header{
+                margin: 1rem;
+                border-radius: 1rem;
+                padding: 1rem;
+                background-color: $primarycolor;
+                color: $secondarygreen;
+                text-align: center;
+            }
+            & .project-details-inside-info{
+                padding: 0 4rem;
+
+                & ul{
+                    padding:  1rem 2rem;
+                    & li{
+                        padding: 1rem 0;
+                    }
+                    & p{
+                        padding: 1rem 0;
+                    }
+                }
+                & .btn-submission{
+                    display: flex;
+                    margin: 3rem 0;
+                    justify-content: center;
+
+                    & button{
+                        text-align: center;
+                        width: 18rem;
+                        height: 4rem;
+                    }
+                }
+            }
+        }
+    }
+}

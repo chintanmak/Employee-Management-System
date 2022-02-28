@@ -21,6 +21,10 @@ import Employee_application_details from './Components/Employer/Dashboard/Contai
 import Employee_dashboard from './Components/Employee/Employee-Dashboard/employee-dashboard';
 import Employee_profile from './Components/Employee/Employee-Dashboard/Employee-Container/employee-profile';
 import Project_list from './Components/Employee/Employee-Dashboard/Employee-Container/project-list';
+import Project_Submission from './Components/Employee/Employee-Dashboard/Employee-Container/project-submission';
+import Application_list from './Components/Employee/Employee-Dashboard/Employee-Container/application-list';
+import Add_application from './Components/Employee/Employee-Dashboard/Employee-Container/add-application';
+import Application_details from './Components/Employee/Employee-Dashboard/Employee-Container/application-details';
 
 
 
@@ -30,7 +34,7 @@ function App() {
       <div>
             <BrowserRouter>
             <Routes>
-            {/* <Route path="/Employerlogin" element={<Employerlogin />} exact />
+            <Route path="/Employerlogin" element={<Employerlogin />} exact />
             <Route path="/dashboard" element={<Dashboard />} exact />
             <Route path="/Employer-dashboard" element={<Employerdashboard /> } exact />
             <Route path='/Employee-list' element={<Employee_list />} exact />
@@ -42,11 +46,14 @@ function App() {
             <Route path='Project-view-details' element={<Project_view_details />} exact />
             <Route path='/Assign-Projects' element={<Assign_projects />} exact />
             <Route path='/Employee-application-details' element={<Employee_application_details />} exact />
-             */}
+            
             <Route path='/Employee-Dashboard' element={<Employee_dashboard />} exact />
             <Route path='/Employee-profile' element={<Employee_profile />} exact />
             <Route path='/Project-list' element={<Project_list />} exact />
-
+            <Route path='/Project-submission' element={<Project_Submission />} exact />
+            <Route path='/application-list' element={<Application_list />} exact />
+            <Route path='/add-application' element={<Add_application />} exact />
+            <Route path='/Application-details' element={<Application_details />} exact />
             </Routes>
 
             </BrowserRouter>

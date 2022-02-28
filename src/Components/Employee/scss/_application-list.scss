@@ -1,0 +1,79 @@
+@import '../../Scss/components';
+@import '../../Scss/fonts';
+@import '../../Scss/variable';
+
+.application-list-container{
+    position: relative;
+    width: initial;
+    height: 100%;
+    border-radius: 5rem 0 0 0;
+    background-color: $primarycolor;
+    overflow: overlay;
+    & .aaplication-list-section{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: inherit;
+        padding: 5rem 1rem;
+
+        & .application-list-header{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 2rem;
+            & button{
+                width: 26rem;
+                height: 5rem;
+                text-align: center;
+                border: 2px solid $secondarygreen; 
+            }
+            & button:hover{
+                width: 26rem;
+                height: 5rem;
+                text-align: center;
+                background-color: $secondarygreen;
+                color: $pure;
+            }
+        }
+
+        & .application-list-section{
+            display: flex;
+            flex-direction: column;
+            padding: 2rem 1rem;
+            gap: 1rem;
+            overflow: overlay;
+
+            & .application-header-list{
+                display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background-color: $secondarygreen;
+            border-radius: 1rem;
+            padding: 0 2rem;
+            align-items: center;
+            height: 5rem;
+            & p{
+                width: 25rem;
+                text-align: center;
+                // border: 2px solid;
+            }
+            }
+            & .application-main-list{
+                display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background-color: $pure;
+            border-radius: 1rem;
+            padding: 0 2rem;
+            align-items: center;
+            height: 5rem;
+            & p{
+                width: 25rem;
+                text-align: center;
+                // border: 2px solid;
+            }
+            }
+        }
+    }
+}

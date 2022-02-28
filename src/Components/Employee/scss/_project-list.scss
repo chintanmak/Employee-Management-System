@@ -42,6 +42,9 @@
                     text-align: center;
                     // border: 2px solid;
                 }
+                & .project-title{
+                    width: 50rem;
+                }
             }
             & .project-list-main{
                 display: flex;
@@ -56,6 +59,9 @@
                     width: 25rem;
                     text-align: center;
                     // border: 2px solid;
+                }
+                & .project-title{
+                    width: 50rem;
                 }
             }
         }
