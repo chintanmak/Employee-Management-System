@@ -31,27 +31,47 @@ export default class Dashboard extends Component {
             <div className='left-navigation-menu-container'>
   
                 <ul className='input-label-24-bold'>
-                    <li><img src={employeelisticon} />Employee List</li>
-                    <li><img src={addemployeeicon} />Add Employee</li>
-                    <li><img src={projecticon} />Projects</li>
-                    <li><img src={applicationicon} />Application</li>
-                    <li><img src={logouticon} />Logout</li>
+                    <li>
+                    <img src={employeelisticon} />
+                    Employee List
+                    </li>
+
+                    <li>
+                    <img src={addemployeeicon} />
+                    Add Employee
+                    </li>
+
+                    <li>
+                    <img src={projecticon} />
+                    Projects
+                    </li>
+
+                    <li>
+                    <img src={applicationicon} />
+                    Application
+                    </li>
+
+                    <li>
+                    <img src={logouticon} />
+                    Logout
+                    </li>
+                    
                 </ul>
             </div>
 
             </div>
 
             <div className='right-dashboard-panel'>
-            <Employer_dashboard />
-            <Employee_list />
-            <Add_employee />
-            <Employee_details />
-            <Total_projects />
-            <Pending_projects />
-            <Project_view_details />
-            <Assign_projects />
-            <Employee_application />
-            <Employee_application_details />
+            {/* <Employer_dashboard /> */}
+            {/* <Employee_list /> */}
+            {/* <Add_employee /> */}
+            {/* <Employee_details /> */}
+            {/* <Total_projects /> */}
+            {/* <Pending_projects /> */}
+            {/* <Project_view_details /> */}
+            {/* <Assign_projects /> */}
+            {/* <Employee_application /> */}
+            {/* <Employee_application_details /> */}
             </div>
 
         </div>
