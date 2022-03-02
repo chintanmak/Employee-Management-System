@@ -30,7 +30,7 @@ export default class Project_details extends Component {
                             <li className='input-label-24-bold color-secondary'>Deadlines:</li>
                             <p className='color-secondary input-label-24-bold'>18-Feb 2022</p>
                             <div className='btn-submission'>
-                            <button className='active-button'>Submission</button>
+                            <button className='active-button'><a href='/Project-submission'>Submission</a></button>
                             </div> 
                             
                         </ul>

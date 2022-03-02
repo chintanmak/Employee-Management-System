@@ -39,15 +39,19 @@ export default class Employee_dashboard extends Component {
                     </li>
 
                     <li>
+                    <a href='/Project-list'>
                     <img src={projecticon} />
                     Projects
+                    </a>
                     </li>
 
                     <li>
+                    <a href='/application-list'>
                     <img src={applicationicon} />
                     Application
+                    </a>
                     </li>
-                    
+
                     <li>
                     <a href='/Tracker'>
                     <img src={addemployeeicon} />
@@ -56,8 +60,10 @@ export default class Employee_dashboard extends Component {
                     </li>
 
                     <li>
+                    <a href='/Employeelogin'>
                     <img src={logouticon} />
                     Logout
+                    </a>
                     </li>
                 </ul>
             </div>
@@ -69,7 +75,7 @@ export default class Employee_dashboard extends Component {
              <Outlet />
             
 
-            {/* <Employee_profile /> */}
+            <Employee_profile />
             {/* <Project_list /> */}
             {/* <Project_details /> */}
             {/* <Project_Submission /> */}

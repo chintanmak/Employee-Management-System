@@ -22,7 +22,7 @@ export default class Project_list extends Component {
                     <div className='project-list-main'>
                     <p className='input-label-24-bold color-lightgreen project-title'>Designing on on application .....</p>
                     <p className='input-label-24-bold color-lightgreen'>18/03/22</p>
-                    <p className='input-label-24-bold color-lightgreen'>View</p>
+                    <p className='input-label-24-bold color-lightgreen'><a href='/project-details'>View</a></p>
                     </div>
                 </div>
             </div>

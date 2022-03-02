@@ -21,7 +21,7 @@ export default class Employer_dashboard extends Component {
                 
                 </span>
                 
-                <button className='nonactive-button addemp-list'> <img src={addemployeeicon} /> Add Employee </button>
+                <button className='nonactive-button addemp-list'><a href='/Add-Employee'> <img src={addemployeeicon} /> Add Employee </a></button>
 
               </div>
 

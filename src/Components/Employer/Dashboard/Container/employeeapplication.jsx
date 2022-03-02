@@ -22,20 +22,9 @@ export default class Employee_application extends Component {
                     <div className='employee-application-main-list'>
                     <p className='input-label-24-bold color-lightgreen'>Chintan Makwana</p>
                     <p className='input-label-24-bold color-lightgreen'>DD/MM/YY</p>
-                    <p className='input-label-24-bold color-lightgreen'>View</p>
+                    <p className='input-label-24-bold color-lightgreen'><a href='/Employee-application-details'>View</a></p>
                     </div>
 
-                    <div className='employee-application-main-list'>
-                    <p className='input-label-24-bold color-lightgreen'>Prateek kuber</p>
-                    <p className='input-label-24-bold color-lightgreen'>DD/MM/YY</p>
-                    <p className='input-label-24-bold color-lightgreen'>View</p>
-                    </div>
-
-                    <div className='employee-application-main-list'>
-                    <p className='input-label-24-bold color-lightgreen'>Govind kshirsagar</p>
-                    <p className='input-label-24-bold color-lightgreen'>DD/MM/YY</p>
-                    <p className='input-label-24-bold color-lightgreen'>View</p>
-                    </div>
                 </div>
             </div>
         </div>

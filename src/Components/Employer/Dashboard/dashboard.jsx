@@ -32,46 +32,47 @@ export default class Dashboard extends Component {
   
                 <ul className='input-label-24-bold'>
                     <li>
+                    <a href='/Employee-list'>
                     <img src={employeelisticon} />
                     Employee List
+                    </a>
                     </li>
 
                     <li>
+                    <a href='/Add-Employee'>
                     <img src={addemployeeicon} />
                     Add Employee
+                    </a>
                     </li>
 
                     <li>
+                    <a href='/Total-Projects'>
                     <img src={projecticon} />
                     Projects
+                    </a>
                     </li>
 
                     <li>
+                    <a href='/Employee-application'>
                     <img src={applicationicon} />
                     Application
+                    </a>
                     </li>
 
                     <li>
+                    <a href='/Employerlogin'>
                     <img src={logouticon} />
                     Logout
+                    </a>
                     </li>
-                    
+
                 </ul>
             </div>
 
             </div>
 
             <div className='right-dashboard-panel'>
-            {/* <Employer_dashboard /> */}
-            {/* <Employee_list /> */}
-            {/* <Add_employee /> */}
-            {/* <Employee_details /> */}
-            {/* <Total_projects /> */}
-            {/* <Pending_projects /> */}
-            {/* <Project_view_details /> */}
-            {/* <Assign_projects /> */}
-            {/* <Employee_application /> */}
-            {/* <Employee_application_details /> */}
+            <Employer_dashboard />
             </div>
 
         </div>

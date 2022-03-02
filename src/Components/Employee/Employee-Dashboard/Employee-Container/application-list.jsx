@@ -12,7 +12,7 @@ export default class Application_list extends Component {
                 <div className='aaplication-list-section'>
                 <div className='application-list-header'>
                 <p className='input-label-24-bold color-lightgreen'><img src={employeelisticon} /> Application List</p>
-                <button className='nonactive-button'> <img src={addemployeeicon} /> Add New Application </button>
+                <button className='nonactive-button'> <a href='/add-application'><img src={addemployeeicon} /> Add New Application </a></button>
                 </div>
 
                 <div className='application-list-section'>
@@ -27,15 +27,9 @@ export default class Application_list extends Component {
                     <p className='input-label-24-bold color-lightgreen'>Chintan Makwana</p>
                     <p className='input-label-24-bold color-lightgreen'>xxx xxx xxx</p>
                     <p className='input-label-24-bold color-lightgreen'>DD/MM/YY</p>
-                    <p className='input-label-24-bold color-lightgreen'>View</p>
+                    <p className='input-label-24-bold color-lightgreen'><a href='/Application-details'>View</a></p>
                 </div>
 
-                <div className='application-main-list'>
-                    <p className='input-label-24-bold color-lightgreen'>Prateek kuber</p>
-                    <p className='input-label-24-bold color-lightgreen'>xxx xxx xxx</p>
-                    <p className='input-label-24-bold color-lightgreen'>DD/MM/YY</p>
-                    <p className='input-label-24-bold color-lightgreen'>View</p>
-                </div>
 
                 
                 </div>

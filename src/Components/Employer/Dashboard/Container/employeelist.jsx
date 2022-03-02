@@ -12,7 +12,11 @@ export default class Employee_list extends Component {
             <div className='employeelist-container'>
                 <div className='employeelist-header-section'>
                 <p className='input-label-24-bold color-lightgreen'><img src={employeelisticon} /> Employee List</p>
-                <button className='nonactive-button'> <img src={addemployeeicon} /> Add New Employee </button>
+                <a href='/Add-employee'>
+                <button className='nonactive-button'> 
+                <img src={addemployeeicon} /> Add New Employee 
+                </button>
+                </a>
                 </div>
 
                 <div className='employee-list-section'>
@@ -27,64 +31,10 @@ export default class Employee_list extends Component {
                     <p className='input-label-24-bold color-lightgreen'>Chintan Makwana</p>
                     <p className='input-label-24-bold color-lightgreen'>xxx xxx xxx</p>
                     <p className='input-label-24-bold color-lightgreen'>DD/MM/YY</p>
-                    <p className='input-label-24-bold color-lightgreen'>View</p>
+                    <p className='input-label-24-bold color-lightgreen'><a href='/Employee_details'>View</a></p>
                 </div>
 
-                <div className='employee-main-list'>
-                    <p className='input-label-24-bold color-lightgreen'>Prateek kuber</p>
-                    <p className='input-label-24-bold color-lightgreen'>xxx xxx xxx</p>
-                    <p className='input-label-24-bold color-lightgreen'>DD/MM/YY</p>
-                    <p className='input-label-24-bold color-lightgreen'>View</p>
-                </div>
-
-                <div className='employee-main-list'>
-                    <p className='input-label-24-bold color-lightgreen'>Govind kshirsagar</p>
-                    <p className='input-label-24-bold color-lightgreen'>xxx xxx xxx</p>
-                    <p className='input-label-24-bold color-lightgreen'>DD/MM/YY</p>
-                    <p className='input-label-24-bold color-lightgreen'>View</p>
-                </div>
-
-                <div className='employee-main-list'>
-                    <p className='input-label-24-bold color-lightgreen'>Chintan Makwana</p>
-                    <p className='input-label-24-bold color-lightgreen'>xxx xxx xxx</p>
-                    <p className='input-label-24-bold color-lightgreen'>DD/MM/YY</p>
-                    <p className='input-label-24-bold color-lightgreen'>View</p>
-                </div>
-
-                <div className='employee-main-list'>
-                    <p className='input-label-24-bold color-lightgreen'>Prateek kuber</p>
-                    <p className='input-label-24-bold color-lightgreen'>xxx xxx xxx</p>
-                    <p className='input-label-24-bold color-lightgreen'>DD/MM/YY</p>
-                    <p className='input-label-24-bold color-lightgreen'>View</p>
-                </div>
-
-                <div className='employee-main-list'>
-                    <p className='input-label-24-bold color-lightgreen'>Govind kshirsagar</p>
-                    <p className='input-label-24-bold color-lightgreen'>xxx xxx xxx</p>
-                    <p className='input-label-24-bold color-lightgreen'>DD/MM/YY</p>
-                    <p className='input-label-24-bold color-lightgreen'>View</p>
-                </div>
-
-                <div className='employee-main-list'>
-                    <p className='input-label-24-bold color-lightgreen'>Chintan Makwana</p>
-                    <p className='input-label-24-bold color-lightgreen'>xxx xxx xxx</p>
-                    <p className='input-label-24-bold color-lightgreen'>DD/MM/YY</p>
-                    <p className='input-label-24-bold color-lightgreen'>View</p>
-                </div>
-
-                <div className='employee-main-list'>
-                    <p className='input-label-24-bold color-lightgreen'>Prateek kuber</p>
-                    <p className='input-label-24-bold color-lightgreen'>xxx xxx xxx</p>
-                    <p className='input-label-24-bold color-lightgreen'>DD/MM/YY</p>
-                    <p className='input-label-24-bold color-lightgreen'>View</p>
-                </div>
-
-                <div className='employee-main-list'>
-                    <p className='input-label-24-bold color-lightgreen'>Govind kshirsagar</p>
-                    <p className='input-label-24-bold color-lightgreen'>xxx xxx xxx</p>
-                    <p className='input-label-24-bold color-lightgreen'>DD/MM/YY</p>
-                    <p className='input-label-24-bold color-lightgreen'>View</p>
-                </div>
+                
                 </div>
             </div>
         </div>
