@@ -1,6 +1,6 @@
-@import '../../Scss/variable';
 @import '../../Scss/components';
 @import '../../Scss/fonts';
+@import '../../Scss/variable';
 
 
 .login-page{
@@ -28,14 +28,14 @@
             flex-direction: column;
             // border: 1px solid;
             align-items: center;
-            padding: 5rem 0;            
+            padding:10rem 0;            
             & .logo{
-                padding-bottom: 4rem;
+                padding-bottom: 6rem;
             }
            
             & .empimg{
-                width: 30rem;
-                height: 25rem;
+                width: 60rem;
+                height: 45rem;
             }
             
         }

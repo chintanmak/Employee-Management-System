@@ -32,7 +32,7 @@ export default class Employerlogin extends Component {
                         placeholder='password'
                     />
                 </div>
-                    <button className='primarybtn'>LOGIN</button>
+                    <button className='primarybtn'><a href='/dashboard'>LOGIN</a></button>
                 
                 </div>
             </div>

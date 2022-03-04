@@ -16,9 +16,9 @@ export default class Total_projects extends Component {
                 </div>
                 <hr />
                 <div className='projects-sections'>
-                    <button className='active-button'><img src={totalprojecticon} /> Total Projects</button>
-                    <button className='nonactive-button'><img src={pendingprojecticon} /> Pending Projects</button>
-                    <button className='nonactive-button'><img src={assignprojecticon} /> Assign Projects</button>
+                <button className='active-button'><a href='/Total-Projects'><img src={totalprojecticon} /> Total Projects</a></button>
+                    <button className='nonactive-button'><a href='/Pending-Projects'><img src={pendingprojecticon} /> Pending Projects</a></button>
+                    <button className='nonactive-button'><a href='/Assign-Projects'><img src={assignprojecticon} /> Assign Projects</a></button>
                 </div>
 
                 <div className='total-project-main-list'>

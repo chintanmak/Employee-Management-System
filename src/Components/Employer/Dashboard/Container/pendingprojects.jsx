@@ -18,9 +18,9 @@ export default class Pending_projects extends Component {
                 </div>
                 <hr />
                 <div className='projects-sections'>
-                    <button className='nonactive-button'><img src={totalprojecticon} /> Total Projects</button>
-                    <button className='active-button'><img src={pendingprojecticon} /> Pending Projects</button>
-                    <button className='nonactive-button'><img src={assignprojecticon} /> Assign Projects</button>
+                    <button className='nonactive-button'><a href='/Total-Projects'><img src={totalprojecticon} /> Total Projects</a></button>
+                    <button className='active-button'><a href='/Pending-Projects'><img src={pendingprojecticon} /> Pending Projects</a></button>
+                    <button className='nonactive-button'><a href='/Assign-Projects'><img src={assignprojecticon} /> Assign Projects</a></button>
                 </div>
 
                 <div className='Pending-project-main-list'>
@@ -33,7 +33,7 @@ export default class Pending_projects extends Component {
                 <div className='Pending-project-main-list'>
                     <p className='input-label-24-bold color-lightgreen'>Chintan Makwana</p>
                     <p className='input-label-24-bold color-lightgreen'>DD/MM/YY</p>
-                    <p className='input-label-24-bold color-lightgreen'>View</p>
+                    <p className='input-label-24-bold color-lightgreen'><a href='/Project-view-details'>View</a></p>
                 </div>
 
 

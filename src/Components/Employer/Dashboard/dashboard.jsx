@@ -60,7 +60,7 @@ export default class Dashboard extends Component {
                     </li>
 
                     <li>
-                    <a href='/Employerlogin'>
+                    <a href='/'>
                     <img src={logouticon} />
                     Logout
                     </a>
