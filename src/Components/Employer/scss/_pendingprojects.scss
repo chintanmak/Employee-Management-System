@@ -32,6 +32,10 @@
                 align-items: center;
                 width: 35rem;
                 height: 4rem;
+                & a{
+                    text-decoration: none;
+                    color: $lightgreen;
+                }
             }
         }
 
@@ -70,6 +74,10 @@
                     width: 25rem;
                     text-align: center;
                     // border: 2px solid;
+                    & a{
+                        text-decoration: none;
+                        color: $lightgreen;
+                    }
                 }
             }
         }

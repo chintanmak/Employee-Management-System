@@ -1,8 +1,5 @@
-import logo from './logo.svg';
-
 import ReactDOM from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Employer_dashboard from './Components/Employer/Dashboard/Container/employer-dashboard';
 
 import './Components/Scss/main.scss';
 
@@ -28,6 +25,8 @@ import Application_details from './Components/Employee/Employee-Dashboard/Employ
 import Tracker from './Components/Employee/Employee-Dashboard/Employee-Container/tracker';
 import Employeelogin from './Components/Employee/employeelogin';
 import Project_details from './Components/Employee/Employee-Dashboard/Employee-Container/project-details';
+import EmployerLayout from './Components/Employer/EmployerLayout';
+import EmployeeLayout from './Components/Employee/EmployeeLayout';
 
 
 
@@ -36,50 +35,46 @@ function App() {
     <>
       <div>
             <BrowserRouter>
+
             <Routes>
-            <Route path="/" element={<Employerlogin />} exact />
-            <Route path="/dashboard" element={<Dashboard />} exact />
+            <Route path="/Employerlogin" element={<Employerlogin />} exact />
             
-            <Route path="/Employer-dashboard" element={<Employerdashboard /> } exact />
-            <Route path='/Employee-list' element={<Employee_list />} exact />
-            <Route path='/Add-Employee' element={<Add_employee />} />
-            <Route path='/Employee_details' element={<Employee_details />} exact />
-            <Route path='/Employee-application' element={<Employee_application />} exact />
-            <Route path='/Total-Projects' element={<Total_projects />} exact />
-            <Route path='/Pending-Projects' element={<Pending_projects />} exact />
-            <Route path='Project-view-details' element={<Project_view_details />} exact />
-            <Route path='/Assign-Projects' element={<Assign_projects />} exact />
-            <Route path='/Employee-application-details' element={<Employee_application_details />} exact />
+            <Route path='/' element={<EmployerLayout />} exact >
+              <Route path='/Employee-list' element={<Employee_list />} exact />
+              <Route path="/Employer-dashboard" element={<Employerdashboard /> } exact />
+              <Route path='/Add-Employee' element={<Add_employee />} />
+              <Route path='/Employee_details' element={<Employee_details />} exact />
+              <Route path='/Employee-application' element={<Employee_application />} exact />
+              <Route path='/Total-Projects' element={<Total_projects />} exact />
+              <Route path='/Pending-Projects' element={<Pending_projects />} exact />
+              <Route path='Project-view-details' element={<Project_view_details />} exact />
+              <Route path='/Assign-Projects' element={<Assign_projects />} exact />
+              <Route path='/Employee-application-details' element={<Employee_application_details />} exact />
+            </Route>
+           
             
             <Route path='/Employeelogin' element={<Employeelogin />} />
-            <Route path='/Employee-Dashboard' element={<Employee_dashboard />} exact />
-            <Route path='/Employee-profile' element={<Employee_profile />} exact />
-            <Route path='/Project-list' element={<Project_list />} exact />
-            <Route path='/project-details' element={<Project_details />} exact />
-            <Route path='/Project-submission' element={<Project_Submission />} exact />
-            <Route path='/application-list' element={<Application_list />} exact />
-            <Route path='/add-application' element={<Add_application />} exact />
-            <Route path='/Application-details' element={<Application_details />} exact />
-            <Route path='/Tracker' element={<Tracker />} exact />
-            
-             
+
+            <Route path='/' element={<EmployeeLayout />} exact >
+              <Route path='/Employee-profile' element={<Employee_profile />} exact />
+              <Route path='/Project-list' element={<Project_list />} exact />
+              <Route path='/project-details' element={<Project_details />} exact />
+              <Route path='/Project-submission' element={<Project_Submission />} exact />
+              <Route path='/application-list' element={<Application_list />} exact />
+              <Route path='/add-application' element={<Add_application />} exact />
+              <Route path='/Application-details' element={<Application_details />} exact />
+              <Route path='/Tracker' element={<Tracker />} exact />
+              
+            </Route>
+
+             <Route path='/Dashboard' element={<Dashboard />} exact />
+             <Route path='/Employee-Dashboard' element={<Employee_dashboard />} exact />
   
             </Routes>
 
             </BrowserRouter>
 
   
-            {/* <Employerlogin /> */}
-            {/* <Employer_dashboard /> */}
-            {/* <Employee_list /> */}
-            {/* <Add_employee /> */}
-            {/* <Employee_details /> */}
-            {/* <Total_projects /> */}
-            {/* <Pending_projects /> */}
-            {/* <Project_view_details /> */}
-            {/* <Assign_projects /> */}
-            {/* <Employee_application /> */}
-            {/* <Employee_application_details /> */}
       </div>
     </>
   );

@@ -9,15 +9,9 @@ import projecticon from '../../Assets/svgs/projects.svg';
 import applicationicon from '../../Assets/svgs/projects.svg';
 import logouticon from '../../Assets/svgs/logout.svg';
 import Employer_dashboard from './Container/employer-dashboard';
-import Employee_list from './Container/employeelist';
-import Add_employee from './Container/addemployee';
-import Employee_details from './Container/employee-details';
+import { Outlet } from 'react-router-dom';
 import Employee_application from './Container/employeeapplication';
-import Total_projects from './Container/totalprojects';
-import Pending_projects from './Container/pendingprojects';
-import Assign_projects from './Container/assignprojects';
-import Employee_application_details from './Container/employee-application-details';
-import Project_view_details from './Container/project-view-details';
+
 
 export default class Dashboard extends Component {
   render() {
@@ -26,7 +20,7 @@ export default class Dashboard extends Component {
         <div className='dashboard'>
             <div className='left-navigation-panel'>
             <div className='dashboard-logo'>
-                <img src={companylogo}  className="logo" />
+                <a href='/Employer-dashboard'><img src={companylogo}  className="logo" /></a>
             </div>
             <div className='left-navigation-menu-container'>
   
@@ -60,7 +54,7 @@ export default class Dashboard extends Component {
                     </li>
 
                     <li>
-                    <a href='/'>
+                    <a href='/Employerlogin'>
                     <img src={logouticon} />
                     Logout
                     </a>
@@ -72,7 +66,8 @@ export default class Dashboard extends Component {
             </div>
 
             <div className='right-dashboard-panel'>
-            <Employer_dashboard />
+            <Outlet />
+            {/* <Employee_application /> */}
             </div>
 
         </div>

@@ -34,6 +34,12 @@ export default class Employee_list extends Component {
                     <p className='input-label-24-bold color-lightgreen'><a href='/Employee_details'>View</a></p>
                 </div>
 
+                <div className='employee-main-list'>
+                    <p className='input-label-24-bold color-lightgreen'>Chintan Makwana</p>
+                    <p className='input-label-24-bold color-lightgreen'>xxx xxx xxx</p>
+                    <p className='input-label-24-bold color-lightgreen'>DD/MM/YY</p>
+                    <p className='input-label-24-bold color-lightgreen'><a href='/Employee_details'>View</a></p>
+                </div>
                 
                 </div>
             </div>

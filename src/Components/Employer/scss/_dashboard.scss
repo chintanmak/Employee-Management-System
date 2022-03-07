@@ -7,6 +7,7 @@
     width: 100%;
     height: 100vh;
     & .left-navigation-panel{
+        position: fixed;
         width: 18%;
         position: relative;
         align-items: center;
@@ -30,6 +31,10 @@
                     color: $lightgreen;
                     padding: 1rem;
                     list-style: none;
+                    & a{
+                        text-decoration: none;
+                        color: $lightgreen;
+                    }
 
                     & img{
                         padding-right: 1rem;
@@ -41,6 +46,7 @@
 
     & .right-dashboard-panel{
         width: 82%;
-        position: relative;
+
+        
     }
 }
