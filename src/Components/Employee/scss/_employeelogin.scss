@@ -1,6 +1,7 @@
 @import '../../Scss/variable';
 @import '../../Scss/components';
 @import '../../Scss/fonts';
+
 .login-page{
     background-color: $primarycolor;
     width: 100%;
@@ -16,7 +17,6 @@
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        margin: 2rem;
         width: 80%;
         height: 80%;
         border-radius: 1rem;
@@ -28,14 +28,14 @@
             align-items: center;
             padding: 5rem 0;            
             & .logo{
-                width: 10rem;
-                height: 6rem;
+                width: 23rem;
+                height: 12rem;
                 padding-bottom: 4rem;
             }
            
             & .empimg{
-                width: 30rem;
-                height: 25rem;
+                width: 45rem;
+                height: 40rem;
             }
             
         }
@@ -43,10 +43,11 @@
         & .login-section{
             display: flex;
             flex-direction: column;
+            justify-content: center;
             align-items: center;
-            // justify-content: center;
+            gap: 2rem;
             & h1{
-                padding-top: 3rem;
+                margin-bottom: 10rem;
                 text-align: center;
             }
 
@@ -62,10 +63,20 @@
                 & .loginids{
                     border: none;
                     background-color: $primarycolor;
-                    width: 20rem;
-                    height: 3rem;
+                    width: 25rem;
+                    height: 4rem;
                     border-radius: 0.5rem;
                     padding: 0 1rem;
+                }
+            }
+
+            & button{
+                margin-top: 5rem;
+                height: 4rem;
+                & a{
+                    text-decoration: none;
+                    color: $pure;
+                    font-size: 2.5rem;
                 }
             }
              
