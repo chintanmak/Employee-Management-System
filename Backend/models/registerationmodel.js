@@ -2,6 +2,11 @@ const mongoose = require('mongoose')
 
 const registerationmodel = new mongoose.Schema({
 
+id: {
+    type: String,
+    required: true
+},
+
 name: {
     type: String,
     required: true
@@ -29,7 +34,7 @@ date:{
 
 })
 
-module.exports = mongoose.model('empproject', registerationmodel)
+module.exports = mongoose.model('registerationmodel', registerationmodel)
 
 
 
