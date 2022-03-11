@@ -1,2 +1,8 @@
-POST http://localhost:4000/app/addEmployee
+# POST http://localhost:4000/app/addEmployee
+# Content-Type: application/json
+
+# GET http://localhost:4000/app/get-all-data
+# Content-Type: application/json
+
+GET http://localhost:4000/app/get-data/chintanmak@gmail.com/9699421928
 Content-Type: application/json

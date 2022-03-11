@@ -17,6 +17,11 @@ const Employermodel = new mongoose.Schema({
        required: true
    },
 
+   Assignedto: {
+       type: Array,
+       default: []
+   },
+
    ApplicationTitle: {
     type: String,
      required: true

@@ -32,4 +32,40 @@ router.post('/addEmployee', async(request, response)=> {
         response.sendStatus(404)
     }
 })
+
+router.get('/get-all-data', async(request, response)=>{
+
+    try{
+
+        await registerationmodelcopy.find()
+        .then(data=>{
+            response.json(data)
+            
+        }).catch(err=>response.json(err));
+        
+    }catch(err){
+        console.log(err);
+    }
+})
+
+router.get('/get-data/:email/:phone', async(req,res)=>{
+
+    try{
+
+        await registerationmodelcopy.findOne({
+            email:req.params.email
+        }).then(data=>{
+            if(data.phone==req.params.phone){
+            res.json(data)                                
+            } else{
+                console.log("Invalid Credential")
+            }
+            res.json(data)
+        }).catch(err=>res.json(err));
+        
+    }catch(err){
+        console.log(err);
+    }
+})
+
 module.exports = router

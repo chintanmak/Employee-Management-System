@@ -3,8 +3,8 @@ import './scss/_employeelogin.scss';
 import Employee from '../Assets/img/Employee.png';
 import companylogo from '../Assets/img/Digitalcompanylogo.png';
 
-export default class Employeelogin extends Component {
-  render() {
+const Employeelogin =()=> {
+
     return (
       <>
         <div className='login-page'>
@@ -38,5 +38,8 @@ export default class Employeelogin extends Component {
         </div>
       </>
     )
-  }
+  
+
 }
+
+export default  Employeelogin;

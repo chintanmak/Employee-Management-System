@@ -1,10 +1,48 @@
 import React, { Component } from 'react';
 import '../../scss/_employeelist.scss';
-
+import axios from "axios";
 import employeelisticon from '../../../Assets/svgs/employeelist.svg';
 import addemployeeicon from '../../../Assets/svgs/addemployee.svg';
 
 export default class Employee_list extends Component {
+  constructor(props) {
+    super(props);
+    this.state={
+      data:[],
+      name: "",
+      email: "",
+      phone: "",
+      role: "",
+      date: "" 
+    }
+    
+  }
+
+  getData = async () => {
+    try {
+      const data = await axios.get("http://localhost:4000/app/get-all-data");
+      console.log(data.data);
+      this.setState({
+        data: data.data,
+      });
+    } catch (err) {
+      console.log(err);
+    }
+    this.setState({
+      name: "",
+      email: "",
+      phone: "",
+      role: "",
+      date: "" 
+
+    });
+  };
+
+  componentDidMount() {  
+    this.getData();
+  }
+
+
   render() {
     return (
       <>
@@ -26,20 +64,18 @@ export default class Employee_list extends Component {
                     <p className='input-label-24-bold color-white'>Reg. Date</p>
                     <p className='input-label-24-bold color-white'>See Details</p>
                 </div>
+{
+  this.state.data.map(item=>(
 
                 <div className='employee-main-list'>
-                    <p className='input-label-24-bold color-lightgreen'>Chintan Makwana</p>
-                    <p className='input-label-24-bold color-lightgreen'>xxx xxx xxx</p>
-                    <p className='input-label-24-bold color-lightgreen'>DD/MM/YY</p>
+                    <p className='input-label-24-bold color-lightgreen'>{item.name}</p>
+                    <p className='input-label-24-bold color-lightgreen'>{item.id}</p>
+                    <p className='input-label-24-bold color-lightgreen'>{item.date.substr(0,10)}</p>
                     <p className='input-label-24-bold color-lightgreen'><a href='/Employee_details'>View</a></p>
                 </div>
+  ))
+}
 
-                <div className='employee-main-list'>
-                    <p className='input-label-24-bold color-lightgreen'>Chintan Makwana</p>
-                    <p className='input-label-24-bold color-lightgreen'>xxx xxx xxx</p>
-                    <p className='input-label-24-bold color-lightgreen'>DD/MM/YY</p>
-                    <p className='input-label-24-bold color-lightgreen'><a href='/Employee_details'>View</a></p>
-                </div>
                 
                 </div>
             </div>
