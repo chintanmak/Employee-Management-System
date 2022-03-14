@@ -28,21 +28,6 @@ export default class Tracker extends Component {
                           </div>
                       </div>
 
-                      <div className='tracker-form'>
-                          <p className='tracker-list'>Testingg testingg</p>
-                          <div className='btn-yesno'>
-                          <button className='primarybtn'>YES</button>
-                          <button className='primarybtn'>NO</button>
-                          </div>
-                      </div>
-                      
-                      <div className='tracker-form'>
-                          <p className='tracker-list'>Hellloooooo</p>
-                          <div className='btn-yesno'>
-                          <button className='primarybtn'>YES</button>
-                          <button className='primarybtn'>NO</button>
-                          </div>
-                      </div>
                       
                       </div>
 

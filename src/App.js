@@ -27,6 +27,7 @@ import Employeelogin from './Components/Employee/employeelogin';
 import Project_details from './Components/Employee/Employee-Dashboard/Employee-Container/project-details';
 import EmployerLayout from './Components/Employer/EmployerLayout';
 import EmployeeLayout from './Components/Employee/EmployeeLayout';
+import React from "react";
 
 
 
@@ -37,9 +38,9 @@ function App() {
             <BrowserRouter>
 
             <Routes>
-            <Route path="/Employerlogin" element={<Employerlogin />} exact />
-            
+            <Route path='/Employerlogin' element={<Employerlogin />} exact />
             <Route path='/' element={<EmployerLayout />} exact >
+            
               <Route path='/Employee-list' element={<Employee_list />} exact />
               <Route path="/Employer-dashboard" element={<Employerdashboard /> } exact />
               <Route path='/Add-Employee' element={<Add_employee />} />
@@ -53,8 +54,7 @@ function App() {
             </Route>
            
             
-            <Route path='/Employeelogin' element={<Employeelogin />} />
-
+            <Route path='/Employeelogin' element={<Employeelogin />} exact />
             <Route path='/' element={<EmployeeLayout />} exact >
               <Route path='/Employee-profile' element={<Employee_profile />} exact />
               <Route path='/Project-list' element={<Project_list />} exact />
@@ -64,11 +64,12 @@ function App() {
               <Route path='/add-application' element={<Add_application />} exact />
               <Route path='/Application-details' element={<Application_details />} exact />
               <Route path='/Tracker' element={<Tracker />} exact />
-              
+            
             </Route>
 
-             <Route path='/Dashboard' element={<Dashboard />} exact />
-             <Route path='/Employee-Dashboard' element={<Employee_dashboard />} exact />
+            <Route path='/Dashboard' element={<Dashboard />} exact />
+            <Route path='/Employee-Dashboard' element={<Employee_dashboard />} exact />
+
   
             </Routes>
 

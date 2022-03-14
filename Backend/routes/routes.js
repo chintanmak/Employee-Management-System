@@ -52,16 +52,29 @@ router.get('/get-data/:email/:phone', async(req,res)=>{
 
     try{
 
-        await registerationmodelcopy.findOne({
+        const data = await registerationmodelcopy.findOne({
             email:req.params.email
-        }).then(data=>{
-            if(data.phone==req.params.phone){
-            res.json(data)                                
+        });
+
+        console.log(data);
+
+        if(data){
+            
+            if(data.phone===req.params.phone){
+                res.json({status:200,data:data})
+                                             
             } else{
                 console.log("Invalid Credential")
+                res.sendStatus(303).json({status:400,error:"INVALID"})                                
             }
-            res.json(data)
-        }).catch(err=>res.json(err));
+
+        }
+        else{
+            console.log("Invalid Credential")
+            
+            res.json({status:400,error:"INVALID"})                                
+                                
+        }
         
     }catch(err){
         console.log(err);
