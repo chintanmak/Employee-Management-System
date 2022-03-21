@@ -4,5 +4,8 @@
 # GET http://localhost:4000/app/get-all-data
 # Content-Type: application/json
 
-GET http://localhost:4000/app/get-data/chintanmak@gmail.com/9699421928
+# GET http://localhost:4000/app/get-data/chintanmak@gmail.com/9699421928
+# Content-Type: application/json
+
+GET http://localhost:4000/app/get-data/967f1002b1df
 Content-Type: application/json

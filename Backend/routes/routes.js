@@ -81,4 +81,20 @@ router.get('/get-data/:email/:phone', async(req,res)=>{
     }
 })
 
+router.get('/get-data/:id', async(req,res)=>{
+
+    try{
+
+        await registerationmodelcopy.findOne({
+            id:req.params.id
+        }).then(data=>{
+            res.json(data)
+        }).catch(err=>res.json(err));
+        
+    }catch(err){
+        console.log(err);
+    }
+})
+
+
 module.exports = router

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import '../../scss/_employeelist.scss';
 import axios from "axios";
 import employeelisticon from '../../../Assets/svgs/employeelist.svg';
@@ -71,7 +72,10 @@ export default class Employee_list extends Component {
                     <p className='input-label-24-bold color-lightgreen'>{item.name}</p>
                     <p className='input-label-24-bold color-lightgreen'>{item.id}</p>
                     <p className='input-label-24-bold color-lightgreen'>{item.date.substr(0,10)}</p>
-                    <p className='input-label-24-bold color-lightgreen'><a href='/Employee_details'>View</a></p>
+                    <p className='input-label-24-bold color-lightgreen'>
+                      {/* <a href={`/Employee_details/${item.id}`}></a> */}
+                      <Link to={{pathname: '/Employee_details', search: item.id}}>View</Link>
+                      </p>
                 </div>
   ))
 }

@@ -1,15 +1,55 @@
 import React, { Component } from 'react';
 import '../../scss/_employee-details.scss';
+import axios from "axios";
 
 export default class Employee_details extends Component {
+
+    constructor(props) {
+        super(props);
+        this.state={
+          data:[],
+          name: "",
+          email: "",
+          phone: "",
+          role: "",
+          date: "" ,
+        }
+        
+      }
+    
+      getData = async (id) => {
+        try {
+          const data = await axios.get(`http://localhost:4000/app/get-data/${id}`);
+          console.log(data.data);
+          this.setState({
+            data: data.data,
+          });
+        } catch (err) {
+          console.log(err);
+        }
+        this.setState({
+          name: "",
+          email: "",
+          phone: "",
+          role: "",
+          date: "" 
+    
+        });
+      };
+    
+      componentDidMount() {  
+          console.log()
+        this.getData(window.location.search.split("?")[1]);
+      }
+
   render() {
     return (
         <>
             <div className='employee-details-container'>
             <div className='employee-details-section'>
-
+ 
                 <div className='employee-details-header'>
-                    <p className='header-36 color-secondary'>Chintan Makwana</p>
+                    <p className='header-36 color-secondary'>{this.state.data.name}</p>
                     <hr />
                 </div>
 
@@ -23,23 +63,23 @@ export default class Employee_details extends Component {
                         <ul>
                     
                             <li className='input-label-24-bold color-secondary'>Name:</li>
-                            <p className='color-secondary input-label-24-bold'>Chintan Makwana</p>
+                            <p className='color-secondary input-label-24-bold'>{this.state.data.name}</p>
                             <hr />
                         
                             <li className='input-label-24-bold color-secondary'>Email:</li>
-                            <p className='color-secondary input-label-24-bold'>Chintanmakwana2011@gmail.com</p>
+                            <p className='color-secondary input-label-24-bold'>{this.state.data.email}</p>
                             <hr />
                             
                             <li className='input-label-24-bold color-secondary'>Role:</li>
-                            <p className='color-secondary input-label-24-bold'>Software Developer</p>
+                            <p className='color-secondary input-label-24-bold'>{this.state.data.role}</p>
                             <hr />
 
                             <li className='input-label-24-bold color-secondary'>Phone:</li>
-                            <p className='color-secondary input-label-24-bold'>9699421928</p>
+                            <p className='color-secondary input-label-24-bold'>{this.state.data.phone}</p>
                             <hr />
 
                             <li className='input-label-24-bold color-secondary'>Joining Date:</li>
-                            <p className='color-secondary input-label-24-bold'>12-Nov</p>
+                            <p className='color-secondary input-label-24-bold'>{this.state.data.date}</p>
                         </ul>
                         </div>
                     </div>
@@ -74,7 +114,7 @@ export default class Employee_details extends Component {
                     </div>
 
                 </div>
-
+ 
             </div>
 
             </div>
